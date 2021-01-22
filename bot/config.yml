@@ -126,7 +126,7 @@ Discord:
     CreateEmbed: false
     custom_message: '{user} tweeted: {url}'
     keyword_sets: ['showroom']
-    blackword_sets: ['来週月曜日']
+    blackword_sets: 
     twitter_ids: ['317684165']
     webhook_urls: ['https://discord.com/api/webhooks/776202389224947763/8JGbVuCzIfa5hJhiFR5iA7iLfCxBEtqiBfKsppGDdLcENequE4m4igXuTLa0CU17Z24x','https://discord.com/api/webhooks/779481430593765407/7S1y5cWV-eASOXaMUYAPWsnS_6mu11g9wtMuAYJgLv5JlU5nrQ0wRb16ZLcnfDVezAhd']
 #8
@@ -138,7 +138,7 @@ Discord:
     CreateEmbed: false
     custom_message: '{user} tweeted: {url}'
     keyword_sets: [['齋藤飛鳥','t.co'],['沈黙の金曜日','t.co']]
-    blackword_sets: ['来週月曜日']
+    blackword_sets: 
     twitter_ids: ['714315534632792064','3096208460']
     webhook_urls: ['https://discord.com/api/webhooks/772552514594799616/6SKMLFZC4baC71VcBF73z2KRSZ49taD5Rs7tpvN_CopgJxvB82p7xLTndEa0BKWijw33']
 #9
@@ -150,7 +150,7 @@ Discord:
     CreateEmbed: false
     custom_message: '{user} tweeted: {url}'
     keyword_sets: ['乃木坂46','堀未央奈','与田祐希',['トップ目とれるカナ','t.co']]
-    blackword_sets: ['来週月曜日']
+    blackword_sets: 
     twitter_ids: ['226517544','4066572320','837626591245037568','873066157086957568','772685974358724608','1215185992153387008','130040008']
     webhook_urls: ['https://discord.com/api/webhooks/772552514594799616/6SKMLFZC4baC71VcBF73z2KRSZ49taD5Rs7tpvN_CopgJxvB82p7xLTndEa0BKWijw33']
 #10
