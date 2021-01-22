@@ -35,7 +35,9 @@ Twitter:
   consumer_key: ${CONSUMER_KEY}
   consumer_secret: ${CONSUMER_SECRET}
 
+# configuration through environment variables
 Discord:
+# configuration here
   - CreateEmbed: false
     custom_message: '{user} tweeted: {url}'
     keyword_sets: ['asdf']
@@ -43,6 +45,7 @@ Discord:
     twitter_ids: ['3064628602']
     webhook_urls: ['https://discord.com/api/webhooks/785346744761188352/pva5poj6QfEAosSdUXrCD4V2x-ClUg1xlMJ9_KQFx6VTkdRl56Lvu49ZSgvR_fRxjADa']
     
+# configuration through environment variables
   - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER!b}
     IncludeRetweet: ${INCLUDE_RETWEET!b}
     IncludeUserReply: ${INCLUDE_USER_REPLY!b}
@@ -202,3 +205,19 @@ Discord:
     track: ${TRACK_10!l}
     location: ${LOCATION_10!fl}
     webhook_urls: ${WEBHOOK_URL_10!wh}
+
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_11!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_11!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_11!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_11!b}
+    IncludeQuote: ${INCLUDE_QUOTE_11!b}
+    CreateEmbed: ${CREATE_EMBED_11!b}
+    custom_message: ${CUSTOM_MESSAGE_11}
+    keyword_sets: ${KEYWORDS_11!ll}
+    blackword_sets: ${BLACKWORDS_11!ll}
+    twitter_ids: ${TWITTER_ID_11!l}
+    twitter_handles: ${TWITTER_HANDLE_11!l}
+    twitter_lists: ${TWITTER_LIST_11!l}
+    track: ${TRACK_11!l}
+    location: ${LOCATION_11!fl}
+    webhook_urls: ${WEBHOOK_URL_11!wh}
