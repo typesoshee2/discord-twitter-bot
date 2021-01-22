@@ -38,25 +38,52 @@ Twitter:
 # configuration through environment variables
 Discord:
 # configuration here in config.yml
+# test
   - CreateEmbed: false
     custom_message: '{user} tweeted: {url}'
-    keyword_sets: 
+    keyword_sets: ['asdf','生ドル',['sdsd','t.co'],'山下美月','与田祐希','山崎','中田花奈',['秋元真夏','t.co']]
     blackword_sets: 
     twitter_ids: ['3064628602']
     webhook_urls: ['https://discord.com/api/webhooks/785346744761188352/pva5poj6QfEAosSdUXrCD4V2x-ClUg1xlMJ9_KQFx6VTkdRl56Lvu49ZSgvR_fRxjADa']
-    
+#1    
   - IncludeReplyToUser: false
-    IncludeRetweet: false
+    IncludeRetweet: true
     IncludeUserReply: true
     IncludeAttachment: true
     IncludeQuote: false
     CreateEmbed: false
     custom_message: '{user} tweeted: {url}'
-    keyword_sets: ['法']
-    blackword_sets: ['措置']
-    twitter_ids: ['3064628602','317684165','3225848184','712096712148459520','804291413831610368','847023967458111490','918648028432498693','929625878249684992','1050154318505029632','1105642239340900352','1241757146473095168','1305347370599641088','1322080600006684672','1314640424062001152','1114009227402416128','1327162323291631616','914715968995291136','1333371891453546497','1345751760682381312']
-    webhook_urls: ['https://discord.com/api/webhooks/785346744761188352/pva5poj6QfEAosSdUXrCD4V2x-ClUg1xlMJ9_KQFx6VTkdRl56Lvu49ZSgvR_fRxjADa']
-    
+    keyword_sets: 
+    blackword_sets: ['法的措置']
+    twitter_ids: ['317684165','3225848184','712096712148459520','804291413831610368','847023967458111490','918648028432498693','929625878249684992','1050154318505029632','1105642239340900352','1241757146473095168','1305347370599641088','1322080600006684672','1314640424062001152','1114009227402416128','1327162323291631616','914715968995291136','1333371891453546497','1345751760682381312']
+    webhook_urls: ['https://discord.com/api/webhooks/772552514594799616/6SKMLFZC4baC71VcBF73z2KRSZ49taD5Rs7tpvN_CopgJxvB82p7xLTndEa0BKWijw33']
+#2
+  - IncludeReplyToUser: false
+    IncludeRetweet: true
+    IncludeUserReply: true
+    IncludeAttachment: true
+    IncludeQuote: false
+    CreateEmbed: false
+    custom_message: '{user} tweeted: {url}'
+    keyword_sets: 
+    blackword_sets: 
+    twitter_ids: ['1001065920234573824','846729851427971073']
+    webhook_urls: ['https://discord.com/api/webhooks/772552514594799616/6SKMLFZC4baC71VcBF73z2KRSZ49taD5Rs7tpvN_CopgJxvB82p7xLTndEa0BKWijw33']
+#3
+  - IncludeReplyToUser: false
+    IncludeRetweet: false
+    IncludeUserReply: true
+    IncludeAttachment: false
+    IncludeQuote: false
+    CreateEmbed: false
+    custom_message: '{user} tweeted: {url}'
+    keyword_sets: ['乃木坂46','生ドル',['だれはな','t.co'],'山下美月','与田祐希','山崎','中田花奈',['秋元真夏','t.co']]
+    blackword_sets: 
+    twitter_ids: ['2569334192','1307929737042427904','1193156715836887041','1219889357810585600','1288392968433356800','1297996538375892994','1309354515724812288']
+    webhook_urls: ['https://discord.com/api/webhooks/774473731585081365/ylHFazQN8IwPNgvDQQvpX-MYqPaGG67z3fKbQ0bVg0SnWci5EfSd4x2IdCqOkO2ZNGts']
+
+
+
 # configuration through environment variables
   - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER!b}
     IncludeRetweet: ${INCLUDE_RETWEET!b}
