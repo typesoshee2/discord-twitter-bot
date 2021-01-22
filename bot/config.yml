@@ -127,8 +127,8 @@ Discord:
     custom_message: '{user} tweeted: {url}'
     keyword_sets: ['showroom']
     blackword_sets: 
-    twitter_ids: ['317684165']
-    webhook_urls: ['https://discord.com/api/webhooks/776202389224947763/8JGbVuCzIfa5hJhiFR5iA7iLfCxBEtqiBfKsppGDdLcENequE4m4igXuTLa0CU17Z24x','https://discord.com/api/webhooks/779481430593765407/7S1y5cWV-eASOXaMUYAPWsnS_6mu11g9wtMuAYJgLv5JlU5nrQ0wRb16ZLcnfDVezAhd']
+    twitter_ids: ['3064628602']
+    webhook_urls: ['https://discord.com/api/webhooks/785346744761188352/pva5poj6QfEAosSdUXrCD4V2x-ClUg1xlMJ9_KQFx6VTkdRl56Lvu49ZSgvR_fRxjADa']
 #8
   - IncludeReplyToUser: false
     IncludeRetweet: false
