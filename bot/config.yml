@@ -90,7 +90,7 @@ Discord:
     CreateEmbed: false
     custom_message: '{user} tweeted: {url}'
     keyword_sets: [['乃木坂','t.co'],['みなみ','t.co'],['桃','t.co'],['サンデー','t.co'],['ちゃん','t.co'],['t.co']]
-    blackword_sets: [['浜中文一'],['TravisJapan'],['サタデー'],['中村海人'],['HeySayJUMP'],['八乙女光'],['伊野尾慧'],['Lilかんさい'],['SexyZone'],['SixTONES'],['嶋﨑斗亜'],['ジェシー'],['髙地優吾'],['くん'],['radirer'],['nhk.or.jp/radirer'],['nhk.or.jp/radirer/sunday/basic_sun'],['してみよう'],['なんて言った'],['なんていった'],['投稿してね'],['送ってね'],['企画です']]
+    blackword_sets: [['浜中文一'],['TravisJapan'],['サタデー'],['中村海人'],['HeySayJUMP'],['八乙女光'],['伊野尾慧'],['Lilかんさい'],['SexyZone'],['SixTONES'],['嶋﨑斗亜'],['ジェシー'],['髙地優吾'],['くん'],['radirer'],['nhk.or.jp/radirer'],['nhk.or.jp/radirer/sunday/basic_sun'],['してみよう'],['なんて言った'],['なんていった'],['投稿してね'],['送ってね'],['考えてね'],['企画です']]
     twitter_ids: ['505321772']
     webhook_urls: ['https://discord.com/api/webhooks/772552514594799616/6SKMLFZC4baC71VcBF73z2KRSZ49taD5Rs7tpvN_CopgJxvB82p7xLTndEa0BKWijw33']
 #5
