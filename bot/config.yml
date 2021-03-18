@@ -78,7 +78,7 @@ Discord:
     CreateEmbed: false
     custom_message: '{user} tweeted: {url}'
     keyword_sets: [['乃木坂46'],['生ドル'],['だれはな','t.co'],['山下美月'],['与田祐希'],['山崎'],['中田花奈'],['秋元真夏','t.co']]
-    blackword_sets: 
+    blackword_sets: [['誰かに話したくなる東京ディズニーリゾート']]
     twitter_ids: ['2569334192','1307929737042427904','1193156715836887041','1219889357810585600','1288392968433356800','1297996538375892994','1309354515724812288']
     webhook_urls: ['https://discord.com/api/webhooks/774473731585081365/ylHFazQN8IwPNgvDQQvpX-MYqPaGG67z3fKbQ0bVg0SnWci5EfSd4x2IdCqOkO2ZNGts']
 #4
