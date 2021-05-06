@@ -189,6 +189,18 @@ Discord:
     blackword_sets: 
     twitter_ids: ['62048976']
     webhook_urls: ['https://discord.com/api/webhooks/822748986699939851/FfcBtI7Ow-iUFfi2pcz7XpGXGni3ZH0geUgXpsnzTaYXeFPevdj76THQWL9P95J9cJPr']
+#13
+  - IncludeReplyToUser: false
+    IncludeRetweet: false
+    IncludeUserReply: false
+    IncludeAttachment: false
+    IncludeQuote: false
+    CreateEmbed: false
+    custom_message: '{user} tweeted: {url}'
+    keyword_sets: 
+    blackword_sets: 
+    twitter_ids: ['2214993781']
+    webhook_urls: ['https://discord.com/api/webhooks/839673177201311785/6JdsiucU9yt9eq_l1acE4uAsRcdTE-SPdJJTP8U4OaQN7180UJiuNVqMB3r0sY6w6-xE']
 
 
 # configuration through environment variables
