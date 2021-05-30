@@ -72,7 +72,7 @@ Discord:
 #3
   - IncludeReplyToUser: false
     IncludeRetweet: false
-    IncludeUserReply: true
+    IncludeUserReply: false
     IncludeAttachment: false
     IncludeQuote: false
     CreateEmbed: false
