@@ -35,7 +35,175 @@ Twitter:
   consumer_key: ${CONSUMER_KEY}
   consumer_secret: ${CONSUMER_SECRET}
 
+# configuration through environment variables
 Discord:
+# configuration here in config.yml
+# test
+  - CreateEmbed: false
+    custom_message: '{user} tweeted: {url}'
+    keyword_sets: 
+    blackword_sets: 
+    twitter_ids: 
+    webhook_urls: 
+#1    
+  - IncludeReplyToUser: false
+    IncludeRetweet: true
+    IncludeUserReply: true
+    IncludeAttachment: true
+    IncludeQuote: false
+    CreateEmbed: false
+    custom_message: '{user} tweeted: {url}'
+    keyword_sets: 
+    blackword_sets: [['法的措置']]
+    twitter_ids: ['317684165','3225848184','712096712148459520','804291413831610368','847023967458111490','918648028432498693','929625878249684992','1050154318505029632','1105642239340900352','1241757146473095168','1305347370599641088','1322080600006684672','1314640424062001152','1114009227402416128','1327162323291631616','914715968995291136','1333371891453546497','1345751760682381312','3225848184','841969300164362240','1363669961080643588','1369011665824411652','1386489808118185985','1206451556675010560','1260730524328321025','1253595964444520448','1410856278474117122','1410507389497856008'，'1412011482724769796']
+    webhook_urls: ['https://discord.com/api/webhooks/822596008394752061/fuscve015WABiqds3j-JfmH32pCiIqC5X90yU0tLiMd2RFreKLdAPhW1vgOvu1eqzYWl']
+#2
+  - IncludeReplyToUser: false
+    IncludeRetweet: true
+    IncludeUserReply: true
+    IncludeAttachment: true
+    IncludeQuote: false
+    CreateEmbed: false
+    custom_message: '{user} tweeted: {url}'
+    keyword_sets: 
+    blackword_sets: 
+    twitter_ids: ['1001065920234573824','846729851427971073']
+    webhook_urls: ['https://discord.com/api/webhooks/822596008394752061/fuscve015WABiqds3j-JfmH32pCiIqC5X90yU0tLiMd2RFreKLdAPhW1vgOvu1eqzYWl']
+#3
+  - IncludeReplyToUser: false
+    IncludeRetweet: false
+    IncludeUserReply: false
+    IncludeAttachment: false
+    IncludeQuote: false
+    CreateEmbed: false
+    custom_message: '{user} tweeted: {url}'
+    keyword_sets: 
+    blackword_sets: [['誰かに話したくなる東京ディズニーリゾート']]
+    twitter_ids: ['2569334192','1307929737042427904','1193156715836887041','1219889357810585600','1288392968433356800','1297996538375892994','1309354515724812288','4077236000']
+    webhook_urls: ['https://discord.com/api/webhooks/822748579508649994/OeAwr_TCBvcEhsKshAFrjJjHR7GHHGzAUZd4u5J71thOyzlYKNzKpxKQ6kZDlZe7XFWF']
+#4
+  - IncludeReplyToUser: false
+    IncludeRetweet: false
+    IncludeUserReply: false
+    IncludeAttachment: false
+    IncludeQuote: false
+    CreateEmbed: false
+    custom_message: '{user} tweeted: {url}'
+    keyword_sets: [['乃木坂','t.co'],['みなみ','t.co'],['桃','t.co'],['サンデー','t.co'],['ちゃん','t.co'],['t.co']]
+    blackword_sets: [['浜中文一'],['TravisJapan'],['サタデー'],['中村海人'],['HeySayJUMP'],['八乙女光'],['伊野尾慧'],['Lilかんさい'],['SexyZone'],['SixTONES'],['嶋﨑斗亜'],['ジェシー'],['髙地優吾'],['くん'],['radirer'],['nhk.or.jp/radirer'],['nhk.or.jp/radirer/sunday/basic_sun'],['してみよう'],['なんて言った'],['なんていった'],['投稿してね'],['送ってね'],['考えてね'],['企画です'],['【サンデー】①'],['【サンデー】②']]
+    twitter_ids: ['505321772']
+    webhook_urls: ['https://discord.com/api/webhooks/822596008394752061/fuscve015WABiqds3j-JfmH32pCiIqC5X90yU0tLiMd2RFreKLdAPhW1vgOvu1eqzYWl']
+#5
+  - IncludeReplyToUser: false
+    IncludeRetweet: true
+    IncludeUserReply: false
+    IncludeAttachment: false
+    IncludeQuote: false
+    CreateEmbed: false
+    custom_message: '{user} tweeted: {url}'
+    keyword_sets: [['乃木坂','t.co'],['田村真佑','t.co']]
+    blackword_sets: [['郡司芹香']]
+    twitter_ids: ['1511776262,2212674829','1014831411935625216']
+    webhook_urls: ['https://discord.com/api/webhooks/822596008394752061/fuscve015WABiqds3j-JfmH32pCiIqC5X90yU0tLiMd2RFreKLdAPhW1vgOvu1eqzYWl']
+#6
+  - IncludeReplyToUser: false
+    IncludeRetweet: false
+    IncludeUserReply: false
+    IncludeAttachment: false
+    IncludeQuote: false
+    CreateEmbed: false
+    custom_message: '{user} tweeted: {url}'
+    keyword_sets: [['乃木坂','t.co'],['乃木坂','アメブロ'],['斉藤優里','t.co'],['斉藤優里','アメブロ'],['月曜','t.co'],['月曜','アメブロ'],['擬音クエスト','t.co'],['擬音クエスト','アメブロ'],['ドンバト','月曜テーマ'],['(月)','t.co'],['(月)','アメブロ'],['明日のドンバトテーマ','t.co'],['明日のドンバトテーマ','アメブロ']]
+    blackword_sets: [['来週月曜日']]
+    twitter_ids: ['388341040']
+    webhook_urls: ['https://discord.com/api/webhooks/822596008394752061/fuscve015WABiqds3j-JfmH32pCiIqC5X90yU0tLiMd2RFreKLdAPhW1vgOvu1eqzYWl']
+#7
+  - IncludeReplyToUser: false
+    IncludeRetweet: false
+    IncludeUserReply: false
+    IncludeAttachment: false
+    IncludeQuote: false
+    CreateEmbed: false
+    custom_message: '{user} tweeted: {url}'
+    keyword_sets: [['showroom']]
+    blackword_sets: 
+    twitter_ids: ['317684165']
+    webhook_urls: ['https://discord.com/api/webhooks/822748986699939851/FfcBtI7Ow-iUFfi2pcz7XpGXGni3ZH0geUgXpsnzTaYXeFPevdj76THQWL9P95J9cJPr','https://discord.com/api/webhooks/822749298278137898/gK_hN_pB3zZHOgVbJHrtp2dxREZV_SpcSrxhqHNSIlU-2zM36BaHURg0016uZ_REIGZT']
+#8
+  - IncludeReplyToUser: false
+    IncludeRetweet: false
+    IncludeUserReply: false
+    IncludeAttachment: false
+    IncludeQuote: false
+    CreateEmbed: false
+    custom_message: '{user} tweeted: {url}'
+    keyword_sets: [['齋藤飛鳥','t.co'],['沈黙の金曜日','t.co']]
+    blackword_sets: 
+    twitter_ids: ['714315534632792064','3096208460']
+    webhook_urls: ['https://discord.com/api/webhooks/822596008394752061/fuscve015WABiqds3j-JfmH32pCiIqC5X90yU0tLiMd2RFreKLdAPhW1vgOvu1eqzYWl']
+#9
+  - IncludeReplyToUser: false
+    IncludeRetweet: false
+    IncludeUserReply: false
+    IncludeAttachment: false
+    IncludeQuote: false
+    CreateEmbed: false
+    custom_message: '{user} tweeted: {url}'
+    keyword_sets: [['乃木坂46'],['堀未央奈'],['与田祐希'],['トップ目とれるカナ','t.co']]
+    blackword_sets: 
+    twitter_ids: ['226517544','4066572320','837626591245037568','873066157086957568','772685974358724608','1215185992153387008','130040008']
+    webhook_urls: ['https://discord.com/api/webhooks/822596008394752061/fuscve015WABiqds3j-JfmH32pCiIqC5X90yU0tLiMd2RFreKLdAPhW1vgOvu1eqzYWl']
+#10
+  - IncludeReplyToUser: false
+    IncludeRetweet: false
+    IncludeUserReply: false
+    IncludeAttachment: false
+    IncludeQuote: false
+    CreateEmbed: false
+    custom_message: '{user} tweeted: {url}'
+    keyword_sets: [['asdf']]
+    blackword_sets: [['zxcv']]
+    twitter_ids: ['3064628602']
+    webhook_urls: ['https://discord.com/api/webhooks/822749512443494410/uH8dqAVhpLHQKFqzR_VBGbRJxrG6Wqd9ApOTYzCse43vg6MONeEoO18h9H9E6BwLD9ih']
+#11
+  - IncludeReplyToUser: false
+    IncludeRetweet: false
+    IncludeUserReply: false
+    IncludeAttachment: false
+    IncludeQuote: false
+    CreateEmbed: false
+    custom_message: '{user} tweeted: {url}'
+    keyword_sets: [['t.co']]
+    blackword_sets: 
+    twitter_ids: ['952446912069648385']
+    webhook_urls: ['https://discord.com/api/webhooks/822748986699939851/FfcBtI7Ow-iUFfi2pcz7XpGXGni3ZH0geUgXpsnzTaYXeFPevdj76THQWL9P95J9cJPr']
+#12
+  - IncludeReplyToUser: false
+    IncludeRetweet: false
+    IncludeUserReply: false
+    IncludeAttachment: false
+    IncludeQuote: false
+    CreateEmbed: false
+    custom_message: '{user} tweeted: {url}'
+    keyword_sets: [['乃木坂46完売表']]
+    blackword_sets: 
+    twitter_ids: ['62048976']
+    webhook_urls: ['https://discord.com/api/webhooks/822748986699939851/FfcBtI7Ow-iUFfi2pcz7XpGXGni3ZH0geUgXpsnzTaYXeFPevdj76THQWL9P95J9cJPr','https://discord.com/api/webhooks/855519066097057792/q4-euqyFJBIaLkksncJ82lTrYrfyNa2KsYgeJ0RrU7_p8OOE8g8NlcV9NN9jneen1LWP']
+#13
+  - IncludeReplyToUser: false
+    IncludeRetweet: false
+    IncludeUserReply: false
+    IncludeAttachment: false
+    IncludeQuote: false
+    CreateEmbed: false
+    custom_message: '{user} tweeted: {url}'
+    keyword_sets: 
+    blackword_sets: 
+    twitter_ids: ['2214993781']
+    webhook_urls: ['https://discord.com/api/webhooks/839673177201311785/6JdsiucU9yt9eq_l1acE4uAsRcdTE-SPdJJTP8U4OaQN7180UJiuNVqMB3r0sY6w6-xE']
+
+
+# configuration through environment variables
   - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER!b}
     IncludeRetweet: ${INCLUDE_RETWEET!b}
     IncludeUserReply: ${INCLUDE_USER_REPLY!b}
@@ -195,3 +363,1427 @@ Discord:
     track: ${TRACK_10!l}
     location: ${LOCATION_10!fl}
     webhook_urls: ${WEBHOOK_URL_10!wh}
+
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_11!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_11!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_11!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_11!b}
+    IncludeQuote: ${INCLUDE_QUOTE_11!b}
+    CreateEmbed: ${CREATE_EMBED_11!b}
+    custom_message: ${CUSTOM_MESSAGE_11}
+    keyword_sets: ${KEYWORDS_11!ll}
+    blackword_sets: ${BLACKWORDS_11!ll}
+    twitter_ids: ${TWITTER_ID_11!l}
+    twitter_handles: ${TWITTER_HANDLE_11!l}
+    twitter_lists: ${TWITTER_LIST_11!l}
+    track: ${TRACK_11!l}
+    location: ${LOCATION_11!fl}
+    webhook_urls: ${WEBHOOK_URL_11!wh}
+
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_12!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_12!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_12!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_12!b}
+    IncludeQuote: ${INCLUDE_QUOTE_12!b}
+    CreateEmbed: ${CREATE_EMBED_12!b}
+    custom_message: ${CUSTOM_MESSAGE_12}
+    keyword_sets: ${KEYWORDS_12!ll}
+    blackword_sets: ${BLACKWORDS_12!ll}
+    twitter_ids: ${TWITTER_ID_12!l}
+    twitter_handles: ${TWITTER_HANDLE_12!l}
+    twitter_lists: ${TWITTER_LIST_12!l}
+    track: ${TRACK_12!l}
+    location: ${LOCATION_12!fl}
+    webhook_urls: ${WEBHOOK_URL_12!wh}
+
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_13!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_13!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_13!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_13!b}
+    IncludeQuote: ${INCLUDE_QUOTE_13!b}
+    CreateEmbed: ${CREATE_EMBED_13!b}
+    custom_message: ${CUSTOM_MESSAGE_13}
+    keyword_sets: ${KEYWORDS_13!ll}
+    blackword_sets: ${BLACKWORDS_13!ll}
+    twitter_ids: ${TWITTER_ID_13!l}
+    twitter_handles: ${TWITTER_HANDLE_13!l}
+    twitter_lists: ${TWITTER_LIST_13!l}
+    track: ${TRACK_13!l}
+    location: ${LOCATION_13!fl}
+    webhook_urls: ${WEBHOOK_URL_13!wh}
+    
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_14!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_14!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_14!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_14!b}
+    IncludeQuote: ${INCLUDE_QUOTE_14!b}
+    CreateEmbed: ${CREATE_EMBED_14!b}
+    custom_message: ${CUSTOM_MESSAGE_14}
+    keyword_sets: ${KEYWORDS_14!ll}
+    blackword_sets: ${BLACKWORDS_14!ll}
+    twitter_ids: ${TWITTER_ID_14!l}
+    twitter_handles: ${TWITTER_HANDLE_14!l}
+    twitter_lists: ${TWITTER_LIST_14!l}
+    track: ${TRACK_14!l}
+    location: ${LOCATION_14!fl}
+    webhook_urls: ${WEBHOOK_URL_14!wh}
+
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_15!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_15!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_15!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_15!b}
+    IncludeQuote: ${INCLUDE_QUOTE_15!b}
+    CreateEmbed: ${CREATE_EMBED_15!b}
+    custom_message: ${CUSTOM_MESSAGE_15}
+    keyword_sets: ${KEYWORDS_15!ll}
+    blackword_sets: ${BLACKWORDS_15!ll}
+    twitter_ids: ${TWITTER_ID_15!l}
+    twitter_handles: ${TWITTER_HANDLE_15!l}
+    twitter_lists: ${TWITTER_LIST_15!l}
+    track: ${TRACK_15!l}
+    location: ${LOCATION_15!fl}
+    webhook_urls: ${WEBHOOK_URL_15!wh}
+    
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_16!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_16!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_16!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_16!b}
+    IncludeQuote: ${INCLUDE_QUOTE_16!b}
+    CreateEmbed: ${CREATE_EMBED_16!b}
+    custom_message: ${CUSTOM_MESSAGE_16}
+    keyword_sets: ${KEYWORDS_16!ll}
+    blackword_sets: ${BLACKWORDS_16!ll}
+    twitter_ids: ${TWITTER_ID_16!l}
+    twitter_handles: ${TWITTER_HANDLE_16!l}
+    twitter_lists: ${TWITTER_LIST_16!l}
+    track: ${TRACK_16!l}
+    location: ${LOCATION_16!fl}
+    webhook_urls: ${WEBHOOK_URL_16!wh}
+    
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_17!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_17!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_17!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_17!b}
+    IncludeQuote: ${INCLUDE_QUOTE_17!b}
+    CreateEmbed: ${CREATE_EMBED_17!b}
+    custom_message: ${CUSTOM_MESSAGE_17}
+    keyword_sets: ${KEYWORDS_17!ll}
+    blackword_sets: ${BLACKWORDS_17!ll}
+    twitter_ids: ${TWITTER_ID_17!l}
+    twitter_handles: ${TWITTER_HANDLE_17!l}
+    twitter_lists: ${TWITTER_LIST_17!l}
+    track: ${TRACK_17!l}
+    location: ${LOCATION_17!fl}
+    webhook_urls: ${WEBHOOK_URL_17!wh}
+
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_18!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_18!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_18!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_18!b}
+    IncludeQuote: ${INCLUDE_QUOTE_18!b}
+    CreateEmbed: ${CREATE_EMBED_18!b}
+    custom_message: ${CUSTOM_MESSAGE_18}
+    keyword_sets: ${KEYWORDS_18!ll}
+    blackword_sets: ${BLACKWORDS_18!ll}
+    twitter_ids: ${TWITTER_ID_18!l}
+    twitter_handles: ${TWITTER_HANDLE_18!l}
+    twitter_lists: ${TWITTER_LIST_18!l}
+    track: ${TRACK_18!l}
+    location: ${LOCATION_18!fl}
+    webhook_urls: ${WEBHOOK_URL_18!wh}
+    
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_19!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_19!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_19!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_19!b}
+    IncludeQuote: ${INCLUDE_QUOTE_19!b}
+    CreateEmbed: ${CREATE_EMBED_19!b}
+    custom_message: ${CUSTOM_MESSAGE_19}
+    keyword_sets: ${KEYWORDS_19!ll}
+    blackword_sets: ${BLACKWORDS_19!ll}
+    twitter_ids: ${TWITTER_ID_19!l}
+    twitter_handles: ${TWITTER_HANDLE_19!l}
+    twitter_lists: ${TWITTER_LIST_19!l}
+    track: ${TRACK_19!l}
+    location: ${LOCATION_19!fl}
+    webhook_urls: ${WEBHOOK_URL_19!wh}
+    
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_20!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_20!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_20!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_20!b}
+    IncludeQuote: ${INCLUDE_QUOTE_20!b}
+    CreateEmbed: ${CREATE_EMBED_20!b}
+    custom_message: ${CUSTOM_MESSAGE_20}
+    keyword_sets: ${KEYWORDS_20!ll}
+    blackword_sets: ${BLACKWORDS_20!ll}
+    twitter_ids: ${TWITTER_ID_20!l}
+    twitter_handles: ${TWITTER_HANDLE_20!l}
+    twitter_lists: ${TWITTER_LIST_20!l}
+    track: ${TRACK_20!l}
+    location: ${LOCATION_20!fl}
+    webhook_urls: ${WEBHOOK_URL_20!wh}
+
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_21!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_21!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_21!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_21!b}
+    IncludeQuote: ${INCLUDE_QUOTE_21!b}
+    CreateEmbed: ${CREATE_EMBED_21!b}
+    custom_message: ${CUSTOM_MESSAGE_21}
+    keyword_sets: ${KEYWORDS_21!ll}
+    blackword_sets: ${BLACKWORDS_21!ll}
+    twitter_ids: ${TWITTER_ID_21!l}
+    twitter_handles: ${TWITTER_HANDLE_21!l}
+    twitter_lists: ${TWITTER_LIST_21!l}
+    track: ${TRACK_21!l}
+    location: ${LOCATION_21!fl}
+    webhook_urls: ${WEBHOOK_URL_21!wh}
+
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_22!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_22!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_22!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_22!b}
+    IncludeQuote: ${INCLUDE_QUOTE_22!b}
+    CreateEmbed: ${CREATE_EMBED_22!b}
+    custom_message: ${CUSTOM_MESSAGE_22}
+    keyword_sets: ${KEYWORDS_22!ll}
+    blackword_sets: ${BLACKWORDS_22!ll}
+    twitter_ids: ${TWITTER_ID_22!l}
+    twitter_handles: ${TWITTER_HANDLE_22!l}
+    twitter_lists: ${TWITTER_LIST_22!l}
+    track: ${TRACK_22!l}
+    location: ${LOCATION_22!fl}
+    webhook_urls: ${WEBHOOK_URL_22!wh}
+
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_23!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_23!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_23!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_23!b}
+    IncludeQuote: ${INCLUDE_QUOTE_23!b}
+    CreateEmbed: ${CREATE_EMBED_23!b}
+    custom_message: ${CUSTOM_MESSAGE_23}
+    keyword_sets: ${KEYWORDS_23!ll}
+    blackword_sets: ${BLACKWORDS_23!ll}
+    twitter_ids: ${TWITTER_ID_23!l}
+    twitter_handles: ${TWITTER_HANDLE_23!l}
+    twitter_lists: ${TWITTER_LIST_23!l}
+    track: ${TRACK_23!l}
+    location: ${LOCATION_23!fl}
+    webhook_urls: ${WEBHOOK_URL_23!wh}
+    
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_24!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_24!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_24!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_24!b}
+    IncludeQuote: ${INCLUDE_QUOTE_24!b}
+    CreateEmbed: ${CREATE_EMBED_24!b}
+    custom_message: ${CUSTOM_MESSAGE_24}
+    keyword_sets: ${KEYWORDS_24!ll}
+    blackword_sets: ${BLACKWORDS_24!ll}
+    twitter_ids: ${TWITTER_ID_24!l}
+    twitter_handles: ${TWITTER_HANDLE_24!l}
+    twitter_lists: ${TWITTER_LIST_24!l}
+    track: ${TRACK_24!l}
+    location: ${LOCATION_24!fl}
+    webhook_urls: ${WEBHOOK_URL_24!wh}
+
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_25!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_25!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_25!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_25!b}
+    IncludeQuote: ${INCLUDE_QUOTE_25!b}
+    CreateEmbed: ${CREATE_EMBED_25!b}
+    custom_message: ${CUSTOM_MESSAGE_25}
+    keyword_sets: ${KEYWORDS_25!ll}
+    blackword_sets: ${BLACKWORDS_25!ll}
+    twitter_ids: ${TWITTER_ID_25!l}
+    twitter_handles: ${TWITTER_HANDLE_25!l}
+    twitter_lists: ${TWITTER_LIST_25!l}
+    track: ${TRACK_25!l}
+    location: ${LOCATION_25!fl}
+    webhook_urls: ${WEBHOOK_URL_25!wh}
+    
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_26!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_26!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_26!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_26!b}
+    IncludeQuote: ${INCLUDE_QUOTE_26!b}
+    CreateEmbed: ${CREATE_EMBED_26!b}
+    custom_message: ${CUSTOM_MESSAGE_26}
+    keyword_sets: ${KEYWORDS_26!ll}
+    blackword_sets: ${BLACKWORDS_26!ll}
+    twitter_ids: ${TWITTER_ID_26!l}
+    twitter_handles: ${TWITTER_HANDLE_26!l}
+    twitter_lists: ${TWITTER_LIST_26!l}
+    track: ${TRACK_26!l}
+    location: ${LOCATION_26!fl}
+    webhook_urls: ${WEBHOOK_URL_26!wh}
+    
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_27!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_27!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_27!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_27!b}
+    IncludeQuote: ${INCLUDE_QUOTE_27!b}
+    CreateEmbed: ${CREATE_EMBED_27!b}
+    custom_message: ${CUSTOM_MESSAGE_27}
+    keyword_sets: ${KEYWORDS_27!ll}
+    blackword_sets: ${BLACKWORDS_27!ll}
+    twitter_ids: ${TWITTER_ID_27!l}
+    twitter_handles: ${TWITTER_HANDLE_27!l}
+    twitter_lists: ${TWITTER_LIST_27!l}
+    track: ${TRACK_27!l}
+    location: ${LOCATION_27!fl}
+    webhook_urls: ${WEBHOOK_URL_27!wh}
+
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_28!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_28!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_28!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_28!b}
+    IncludeQuote: ${INCLUDE_QUOTE_28!b}
+    CreateEmbed: ${CREATE_EMBED_28!b}
+    custom_message: ${CUSTOM_MESSAGE_28}
+    keyword_sets: ${KEYWORDS_28!ll}
+    blackword_sets: ${BLACKWORDS_28!ll}
+    twitter_ids: ${TWITTER_ID_28!l}
+    twitter_handles: ${TWITTER_HANDLE_28!l}
+    twitter_lists: ${TWITTER_LIST_28!l}
+    track: ${TRACK_28!l}
+    location: ${LOCATION_28!fl}
+    webhook_urls: ${WEBHOOK_URL_28!wh}
+    
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_29!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_29!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_29!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_29!b}
+    IncludeQuote: ${INCLUDE_QUOTE_29!b}
+    CreateEmbed: ${CREATE_EMBED_29!b}
+    custom_message: ${CUSTOM_MESSAGE_29}
+    keyword_sets: ${KEYWORDS_29!ll}
+    blackword_sets: ${BLACKWORDS_29!ll}
+    twitter_ids: ${TWITTER_ID_29!l}
+    twitter_handles: ${TWITTER_HANDLE_29!l}
+    twitter_lists: ${TWITTER_LIST_29!l}
+    track: ${TRACK_29!l}
+    location: ${LOCATION_29!fl}
+    webhook_urls: ${WEBHOOK_URL_29!wh}
+    
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_30!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_30!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_30!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_30!b}
+    IncludeQuote: ${INCLUDE_QUOTE_30!b}
+    CreateEmbed: ${CREATE_EMBED_30!b}
+    custom_message: ${CUSTOM_MESSAGE_30}
+    keyword_sets: ${KEYWORDS_30!ll}
+    blackword_sets: ${BLACKWORDS_30!ll}
+    twitter_ids: ${TWITTER_ID_30!l}
+    twitter_handles: ${TWITTER_HANDLE_30!l}
+    twitter_lists: ${TWITTER_LIST_30!l}
+    track: ${TRACK_30!l}
+    location: ${LOCATION_30!fl}
+    webhook_urls: ${WEBHOOK_URL_30!wh}
+
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_31!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_31!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_31!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_31!b}
+    IncludeQuote: ${INCLUDE_QUOTE_31!b}
+    CreateEmbed: ${CREATE_EMBED_31!b}
+    custom_message: ${CUSTOM_MESSAGE_31}
+    keyword_sets: ${KEYWORDS_31!ll}
+    blackword_sets: ${BLACKWORDS_31!ll}
+    twitter_ids: ${TWITTER_ID_31!l}
+    twitter_handles: ${TWITTER_HANDLE_31!l}
+    twitter_lists: ${TWITTER_LIST_31!l}
+    track: ${TRACK_31!l}
+    location: ${LOCATION_31!fl}
+    webhook_urls: ${WEBHOOK_URL_31!wh}
+
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_32!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_32!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_32!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_32!b}
+    IncludeQuote: ${INCLUDE_QUOTE_32!b}
+    CreateEmbed: ${CREATE_EMBED_32!b}
+    custom_message: ${CUSTOM_MESSAGE_32}
+    keyword_sets: ${KEYWORDS_32!ll}
+    blackword_sets: ${BLACKWORDS_32!ll}
+    twitter_ids: ${TWITTER_ID_32!l}
+    twitter_handles: ${TWITTER_HANDLE_32!l}
+    twitter_lists: ${TWITTER_LIST_32!l}
+    track: ${TRACK_32!l}
+    location: ${LOCATION_32!fl}
+    webhook_urls: ${WEBHOOK_URL_32!wh}
+
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_33!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_33!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_33!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_33!b}
+    IncludeQuote: ${INCLUDE_QUOTE_33!b}
+    CreateEmbed: ${CREATE_EMBED_33!b}
+    custom_message: ${CUSTOM_MESSAGE_33}
+    keyword_sets: ${KEYWORDS_33!ll}
+    blackword_sets: ${BLACKWORDS_33!ll}
+    twitter_ids: ${TWITTER_ID_33!l}
+    twitter_handles: ${TWITTER_HANDLE_33!l}
+    twitter_lists: ${TWITTER_LIST_33!l}
+    track: ${TRACK_33!l}
+    location: ${LOCATION_33!fl}
+    webhook_urls: ${WEBHOOK_URL_33!wh}
+    
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_34!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_34!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_34!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_34!b}
+    IncludeQuote: ${INCLUDE_QUOTE_34!b}
+    CreateEmbed: ${CREATE_EMBED_34!b}
+    custom_message: ${CUSTOM_MESSAGE_34}
+    keyword_sets: ${KEYWORDS_34!ll}
+    blackword_sets: ${BLACKWORDS_34!ll}
+    twitter_ids: ${TWITTER_ID_34!l}
+    twitter_handles: ${TWITTER_HANDLE_34!l}
+    twitter_lists: ${TWITTER_LIST_34!l}
+    track: ${TRACK_34!l}
+    location: ${LOCATION_34!fl}
+    webhook_urls: ${WEBHOOK_URL_34!wh}
+
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_35!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_35!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_35!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_35!b}
+    IncludeQuote: ${INCLUDE_QUOTE_35!b}
+    CreateEmbed: ${CREATE_EMBED_35!b}
+    custom_message: ${CUSTOM_MESSAGE_35}
+    keyword_sets: ${KEYWORDS_35!ll}
+    blackword_sets: ${BLACKWORDS_35!ll}
+    twitter_ids: ${TWITTER_ID_35!l}
+    twitter_handles: ${TWITTER_HANDLE_35!l}
+    twitter_lists: ${TWITTER_LIST_35!l}
+    track: ${TRACK_35!l}
+    location: ${LOCATION_35!fl}
+    webhook_urls: ${WEBHOOK_URL_35!wh}
+    
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_36!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_36!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_36!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_36!b}
+    IncludeQuote: ${INCLUDE_QUOTE_36!b}
+    CreateEmbed: ${CREATE_EMBED_36!b}
+    custom_message: ${CUSTOM_MESSAGE_36}
+    keyword_sets: ${KEYWORDS_36!ll}
+    blackword_sets: ${BLACKWORDS_36!ll}
+    twitter_ids: ${TWITTER_ID_36!l}
+    twitter_handles: ${TWITTER_HANDLE_36!l}
+    twitter_lists: ${TWITTER_LIST_36!l}
+    track: ${TRACK_36!l}
+    location: ${LOCATION_36!fl}
+    webhook_urls: ${WEBHOOK_URL_36!wh}
+    
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_37!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_37!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_37!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_37!b}
+    IncludeQuote: ${INCLUDE_QUOTE_37!b}
+    CreateEmbed: ${CREATE_EMBED_37!b}
+    custom_message: ${CUSTOM_MESSAGE_37}
+    keyword_sets: ${KEYWORDS_37!ll}
+    blackword_sets: ${BLACKWORDS_37!ll}
+    twitter_ids: ${TWITTER_ID_37!l}
+    twitter_handles: ${TWITTER_HANDLE_37!l}
+    twitter_lists: ${TWITTER_LIST_37!l}
+    track: ${TRACK_37!l}
+    location: ${LOCATION_37!fl}
+    webhook_urls: ${WEBHOOK_URL_37!wh}
+
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_38!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_38!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_38!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_38!b}
+    IncludeQuote: ${INCLUDE_QUOTE_38!b}
+    CreateEmbed: ${CREATE_EMBED_38!b}
+    custom_message: ${CUSTOM_MESSAGE_38}
+    keyword_sets: ${KEYWORDS_38!ll}
+    blackword_sets: ${BLACKWORDS_38!ll}
+    twitter_ids: ${TWITTER_ID_38!l}
+    twitter_handles: ${TWITTER_HANDLE_38!l}
+    twitter_lists: ${TWITTER_LIST_38!l}
+    track: ${TRACK_38!l}
+    location: ${LOCATION_38!fl}
+    webhook_urls: ${WEBHOOK_URL_38!wh}
+    
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_39!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_39!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_39!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_39!b}
+    IncludeQuote: ${INCLUDE_QUOTE_39!b}
+    CreateEmbed: ${CREATE_EMBED_39!b}
+    custom_message: ${CUSTOM_MESSAGE_39}
+    keyword_sets: ${KEYWORDS_39!ll}
+    blackword_sets: ${BLACKWORDS_39!ll}
+    twitter_ids: ${TWITTER_ID_39!l}
+    twitter_handles: ${TWITTER_HANDLE_39!l}
+    twitter_lists: ${TWITTER_LIST_39!l}
+    track: ${TRACK_39!l}
+    location: ${LOCATION_39!fl}
+    webhook_urls: ${WEBHOOK_URL_39!wh}
+    
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_40!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_40!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_40!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_40!b}
+    IncludeQuote: ${INCLUDE_QUOTE_40!b}
+    CreateEmbed: ${CREATE_EMBED_40!b}
+    custom_message: ${CUSTOM_MESSAGE_40}
+    keyword_sets: ${KEYWORDS_40!ll}
+    blackword_sets: ${BLACKWORDS_40!ll}
+    twitter_ids: ${TWITTER_ID_40!l}
+    twitter_handles: ${TWITTER_HANDLE_40!l}
+    twitter_lists: ${TWITTER_LIST_40!l}
+    track: ${TRACK_40!l}
+    location: ${LOCATION_40!fl}
+    webhook_urls: ${WEBHOOK_URL_40!wh}
+
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_41!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_41!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_41!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_41!b}
+    IncludeQuote: ${INCLUDE_QUOTE_41!b}
+    CreateEmbed: ${CREATE_EMBED_41!b}
+    custom_message: ${CUSTOM_MESSAGE_41}
+    keyword_sets: ${KEYWORDS_41!ll}
+    blackword_sets: ${BLACKWORDS_41!ll}
+    twitter_ids: ${TWITTER_ID_41!l}
+    twitter_handles: ${TWITTER_HANDLE_41!l}
+    twitter_lists: ${TWITTER_LIST_41!l}
+    track: ${TRACK_41!l}
+    location: ${LOCATION_41!fl}
+    webhook_urls: ${WEBHOOK_URL_41!wh}
+
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_42!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_42!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_42!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_42!b}
+    IncludeQuote: ${INCLUDE_QUOTE_42!b}
+    CreateEmbed: ${CREATE_EMBED_42!b}
+    custom_message: ${CUSTOM_MESSAGE_42}
+    keyword_sets: ${KEYWORDS_42!ll}
+    blackword_sets: ${BLACKWORDS_42!ll}
+    twitter_ids: ${TWITTER_ID_42!l}
+    twitter_handles: ${TWITTER_HANDLE_42!l}
+    twitter_lists: ${TWITTER_LIST_42!l}
+    track: ${TRACK_42!l}
+    location: ${LOCATION_42!fl}
+    webhook_urls: ${WEBHOOK_URL_42!wh}
+
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_43!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_43!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_43!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_43!b}
+    IncludeQuote: ${INCLUDE_QUOTE_43!b}
+    CreateEmbed: ${CREATE_EMBED_43!b}
+    custom_message: ${CUSTOM_MESSAGE_43}
+    keyword_sets: ${KEYWORDS_43!ll}
+    blackword_sets: ${BLACKWORDS_43!ll}
+    twitter_ids: ${TWITTER_ID_43!l}
+    twitter_handles: ${TWITTER_HANDLE_43!l}
+    twitter_lists: ${TWITTER_LIST_43!l}
+    track: ${TRACK_43!l}
+    location: ${LOCATION_43!fl}
+    webhook_urls: ${WEBHOOK_URL_43!wh}
+    
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_44!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_44!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_44!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_44!b}
+    IncludeQuote: ${INCLUDE_QUOTE_44!b}
+    CreateEmbed: ${CREATE_EMBED_44!b}
+    custom_message: ${CUSTOM_MESSAGE_44}
+    keyword_sets: ${KEYWORDS_44!ll}
+    blackword_sets: ${BLACKWORDS_44!ll}
+    twitter_ids: ${TWITTER_ID_44!l}
+    twitter_handles: ${TWITTER_HANDLE_44!l}
+    twitter_lists: ${TWITTER_LIST_44!l}
+    track: ${TRACK_44!l}
+    location: ${LOCATION_44!fl}
+    webhook_urls: ${WEBHOOK_URL_44!wh}
+
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_45!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_45!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_45!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_45!b}
+    IncludeQuote: ${INCLUDE_QUOTE_45!b}
+    CreateEmbed: ${CREATE_EMBED_45!b}
+    custom_message: ${CUSTOM_MESSAGE_45}
+    keyword_sets: ${KEYWORDS_45!ll}
+    blackword_sets: ${BLACKWORDS_45!ll}
+    twitter_ids: ${TWITTER_ID_45!l}
+    twitter_handles: ${TWITTER_HANDLE_45!l}
+    twitter_lists: ${TWITTER_LIST_45!l}
+    track: ${TRACK_45!l}
+    location: ${LOCATION_45!fl}
+    webhook_urls: ${WEBHOOK_URL_45!wh}
+    
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_46!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_46!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_46!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_46!b}
+    IncludeQuote: ${INCLUDE_QUOTE_46!b}
+    CreateEmbed: ${CREATE_EMBED_46!b}
+    custom_message: ${CUSTOM_MESSAGE_46}
+    keyword_sets: ${KEYWORDS_46!ll}
+    blackword_sets: ${BLACKWORDS_46!ll}
+    twitter_ids: ${TWITTER_ID_46!l}
+    twitter_handles: ${TWITTER_HANDLE_46!l}
+    twitter_lists: ${TWITTER_LIST_46!l}
+    track: ${TRACK_46!l}
+    location: ${LOCATION_46!fl}
+    webhook_urls: ${WEBHOOK_URL_46!wh}
+    
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_47!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_47!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_47!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_47!b}
+    IncludeQuote: ${INCLUDE_QUOTE_47!b}
+    CreateEmbed: ${CREATE_EMBED_47!b}
+    custom_message: ${CUSTOM_MESSAGE_47}
+    keyword_sets: ${KEYWORDS_47!ll}
+    blackword_sets: ${BLACKWORDS_47!ll}
+    twitter_ids: ${TWITTER_ID_47!l}
+    twitter_handles: ${TWITTER_HANDLE_47!l}
+    twitter_lists: ${TWITTER_LIST_47!l}
+    track: ${TRACK_47!l}
+    location: ${LOCATION_47!fl}
+    webhook_urls: ${WEBHOOK_URL_47!wh}
+
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_48!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_48!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_48!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_48!b}
+    IncludeQuote: ${INCLUDE_QUOTE_48!b}
+    CreateEmbed: ${CREATE_EMBED_48!b}
+    custom_message: ${CUSTOM_MESSAGE_48}
+    keyword_sets: ${KEYWORDS_48!ll}
+    blackword_sets: ${BLACKWORDS_48!ll}
+    twitter_ids: ${TWITTER_ID_48!l}
+    twitter_handles: ${TWITTER_HANDLE_48!l}
+    twitter_lists: ${TWITTER_LIST_48!l}
+    track: ${TRACK_48!l}
+    location: ${LOCATION_48!fl}
+    webhook_urls: ${WEBHOOK_URL_48!wh}
+    
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_49!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_49!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_49!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_49!b}
+    IncludeQuote: ${INCLUDE_QUOTE_49!b}
+    CreateEmbed: ${CREATE_EMBED_49!b}
+    custom_message: ${CUSTOM_MESSAGE_49}
+    keyword_sets: ${KEYWORDS_49!ll}
+    blackword_sets: ${BLACKWORDS_49!ll}
+    twitter_ids: ${TWITTER_ID_49!l}
+    twitter_handles: ${TWITTER_HANDLE_49!l}
+    twitter_lists: ${TWITTER_LIST_49!l}
+    track: ${TRACK_49!l}
+    location: ${LOCATION_49!fl}
+    webhook_urls: ${WEBHOOK_URL_49!wh}
+    
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_50!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_50!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_50!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_50!b}
+    IncludeQuote: ${INCLUDE_QUOTE_50!b}
+    CreateEmbed: ${CREATE_EMBED_50!b}
+    custom_message: ${CUSTOM_MESSAGE_50}
+    keyword_sets: ${KEYWORDS_50!ll}
+    blackword_sets: ${BLACKWORDS_50!ll}
+    twitter_ids: ${TWITTER_ID_50!l}
+    twitter_handles: ${TWITTER_HANDLE_50!l}
+    twitter_lists: ${TWITTER_LIST_50!l}
+    track: ${TRACK_50!l}
+    location: ${LOCATION_50!fl}
+    webhook_urls: ${WEBHOOK_URL_50!wh}
+
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_51!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_51!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_51!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_51!b}
+    IncludeQuote: ${INCLUDE_QUOTE_51!b}
+    CreateEmbed: ${CREATE_EMBED_51!b}
+    custom_message: ${CUSTOM_MESSAGE_51}
+    keyword_sets: ${KEYWORDS_51!ll}
+    blackword_sets: ${BLACKWORDS_51!ll}
+    twitter_ids: ${TWITTER_ID_51!l}
+    twitter_handles: ${TWITTER_HANDLE_51!l}
+    twitter_lists: ${TWITTER_LIST_51!l}
+    track: ${TRACK_51!l}
+    location: ${LOCATION_51!fl}
+    webhook_urls: ${WEBHOOK_URL_51!wh}
+
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_52!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_52!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_52!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_52!b}
+    IncludeQuote: ${INCLUDE_QUOTE_52!b}
+    CreateEmbed: ${CREATE_EMBED_52!b}
+    custom_message: ${CUSTOM_MESSAGE_52}
+    keyword_sets: ${KEYWORDS_52!ll}
+    blackword_sets: ${BLACKWORDS_52!ll}
+    twitter_ids: ${TWITTER_ID_52!l}
+    twitter_handles: ${TWITTER_HANDLE_52!l}
+    twitter_lists: ${TWITTER_LIST_52!l}
+    track: ${TRACK_52!l}
+    location: ${LOCATION_52!fl}
+    webhook_urls: ${WEBHOOK_URL_52!wh}
+
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_53!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_53!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_53!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_53!b}
+    IncludeQuote: ${INCLUDE_QUOTE_53!b}
+    CreateEmbed: ${CREATE_EMBED_53!b}
+    custom_message: ${CUSTOM_MESSAGE_53}
+    keyword_sets: ${KEYWORDS_53!ll}
+    blackword_sets: ${BLACKWORDS_53!ll}
+    twitter_ids: ${TWITTER_ID_53!l}
+    twitter_handles: ${TWITTER_HANDLE_53!l}
+    twitter_lists: ${TWITTER_LIST_53!l}
+    track: ${TRACK_53!l}
+    location: ${LOCATION_53!fl}
+    webhook_urls: ${WEBHOOK_URL_53!wh}
+    
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_54!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_54!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_54!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_54!b}
+    IncludeQuote: ${INCLUDE_QUOTE_54!b}
+    CreateEmbed: ${CREATE_EMBED_54!b}
+    custom_message: ${CUSTOM_MESSAGE_54}
+    keyword_sets: ${KEYWORDS_54!ll}
+    blackword_sets: ${BLACKWORDS_54!ll}
+    twitter_ids: ${TWITTER_ID_54!l}
+    twitter_handles: ${TWITTER_HANDLE_54!l}
+    twitter_lists: ${TWITTER_LIST_54!l}
+    track: ${TRACK_54!l}
+    location: ${LOCATION_54!fl}
+    webhook_urls: ${WEBHOOK_URL_54!wh}
+
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_55!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_55!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_55!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_55!b}
+    IncludeQuote: ${INCLUDE_QUOTE_55!b}
+    CreateEmbed: ${CREATE_EMBED_55!b}
+    custom_message: ${CUSTOM_MESSAGE_55}
+    keyword_sets: ${KEYWORDS_55!ll}
+    blackword_sets: ${BLACKWORDS_55!ll}
+    twitter_ids: ${TWITTER_ID_55!l}
+    twitter_handles: ${TWITTER_HANDLE_55!l}
+    twitter_lists: ${TWITTER_LIST_55!l}
+    track: ${TRACK_55!l}
+    location: ${LOCATION_55!fl}
+    webhook_urls: ${WEBHOOK_URL_55!wh}
+    
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_56!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_56!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_56!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_56!b}
+    IncludeQuote: ${INCLUDE_QUOTE_56!b}
+    CreateEmbed: ${CREATE_EMBED_56!b}
+    custom_message: ${CUSTOM_MESSAGE_56}
+    keyword_sets: ${KEYWORDS_56!ll}
+    blackword_sets: ${BLACKWORDS_56!ll}
+    twitter_ids: ${TWITTER_ID_56!l}
+    twitter_handles: ${TWITTER_HANDLE_56!l}
+    twitter_lists: ${TWITTER_LIST_56!l}
+    track: ${TRACK_56!l}
+    location: ${LOCATION_56!fl}
+    webhook_urls: ${WEBHOOK_URL_56!wh}
+    
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_57!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_57!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_57!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_57!b}
+    IncludeQuote: ${INCLUDE_QUOTE_57!b}
+    CreateEmbed: ${CREATE_EMBED_57!b}
+    custom_message: ${CUSTOM_MESSAGE_57}
+    keyword_sets: ${KEYWORDS_57!ll}
+    blackword_sets: ${BLACKWORDS_57!ll}
+    twitter_ids: ${TWITTER_ID_57!l}
+    twitter_handles: ${TWITTER_HANDLE_57!l}
+    twitter_lists: ${TWITTER_LIST_57!l}
+    track: ${TRACK_57!l}
+    location: ${LOCATION_57!fl}
+    webhook_urls: ${WEBHOOK_URL_57!wh}
+
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_58!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_58!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_58!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_58!b}
+    IncludeQuote: ${INCLUDE_QUOTE_58!b}
+    CreateEmbed: ${CREATE_EMBED_58!b}
+    custom_message: ${CUSTOM_MESSAGE_58}
+    keyword_sets: ${KEYWORDS_58!ll}
+    blackword_sets: ${BLACKWORDS_58!ll}
+    twitter_ids: ${TWITTER_ID_58!l}
+    twitter_handles: ${TWITTER_HANDLE_58!l}
+    twitter_lists: ${TWITTER_LIST_58!l}
+    track: ${TRACK_58!l}
+    location: ${LOCATION_58!fl}
+    webhook_urls: ${WEBHOOK_URL_58!wh}
+    
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_59!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_59!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_59!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_59!b}
+    IncludeQuote: ${INCLUDE_QUOTE_59!b}
+    CreateEmbed: ${CREATE_EMBED_59!b}
+    custom_message: ${CUSTOM_MESSAGE_59}
+    keyword_sets: ${KEYWORDS_59!ll}
+    blackword_sets: ${BLACKWORDS_59!ll}
+    twitter_ids: ${TWITTER_ID_59!l}
+    twitter_handles: ${TWITTER_HANDLE_59!l}
+    twitter_lists: ${TWITTER_LIST_59!l}
+    track: ${TRACK_59!l}
+    location: ${LOCATION_59!fl}
+    webhook_urls: ${WEBHOOK_URL_59!wh}
+    
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_60!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_60!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_60!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_60!b}
+    IncludeQuote: ${INCLUDE_QUOTE_60!b}
+    CreateEmbed: ${CREATE_EMBED_60!b}
+    custom_message: ${CUSTOM_MESSAGE_60}
+    keyword_sets: ${KEYWORDS_60!ll}
+    blackword_sets: ${BLACKWORDS_60!ll}
+    twitter_ids: ${TWITTER_ID_60!l}
+    twitter_handles: ${TWITTER_HANDLE_60!l}
+    twitter_lists: ${TWITTER_LIST_60!l}
+    track: ${TRACK_60!l}
+    location: ${LOCATION_60!fl}
+    webhook_urls: ${WEBHOOK_URL_60!wh}
+
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_61!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_61!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_61!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_61!b}
+    IncludeQuote: ${INCLUDE_QUOTE_61!b}
+    CreateEmbed: ${CREATE_EMBED_61!b}
+    custom_message: ${CUSTOM_MESSAGE_61}
+    keyword_sets: ${KEYWORDS_61!ll}
+    blackword_sets: ${BLACKWORDS_61!ll}
+    twitter_ids: ${TWITTER_ID_61!l}
+    twitter_handles: ${TWITTER_HANDLE_61!l}
+    twitter_lists: ${TWITTER_LIST_61!l}
+    track: ${TRACK_61!l}
+    location: ${LOCATION_61!fl}
+    webhook_urls: ${WEBHOOK_URL_61!wh}
+
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_62!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_62!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_62!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_62!b}
+    IncludeQuote: ${INCLUDE_QUOTE_62!b}
+    CreateEmbed: ${CREATE_EMBED_62!b}
+    custom_message: ${CUSTOM_MESSAGE_62}
+    keyword_sets: ${KEYWORDS_62!ll}
+    blackword_sets: ${BLACKWORDS_62!ll}
+    twitter_ids: ${TWITTER_ID_62!l}
+    twitter_handles: ${TWITTER_HANDLE_62!l}
+    twitter_lists: ${TWITTER_LIST_62!l}
+    track: ${TRACK_62!l}
+    location: ${LOCATION_62!fl}
+    webhook_urls: ${WEBHOOK_URL_62!wh}
+
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_63!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_63!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_63!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_63!b}
+    IncludeQuote: ${INCLUDE_QUOTE_63!b}
+    CreateEmbed: ${CREATE_EMBED_63!b}
+    custom_message: ${CUSTOM_MESSAGE_63}
+    keyword_sets: ${KEYWORDS_63!ll}
+    blackword_sets: ${BLACKWORDS_63!ll}
+    twitter_ids: ${TWITTER_ID_63!l}
+    twitter_handles: ${TWITTER_HANDLE_63!l}
+    twitter_lists: ${TWITTER_LIST_63!l}
+    track: ${TRACK_63!l}
+    location: ${LOCATION_63!fl}
+    webhook_urls: ${WEBHOOK_URL_63!wh}
+    
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_64!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_64!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_64!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_64!b}
+    IncludeQuote: ${INCLUDE_QUOTE_64!b}
+    CreateEmbed: ${CREATE_EMBED_64!b}
+    custom_message: ${CUSTOM_MESSAGE_64}
+    keyword_sets: ${KEYWORDS_64!ll}
+    blackword_sets: ${BLACKWORDS_64!ll}
+    twitter_ids: ${TWITTER_ID_64!l}
+    twitter_handles: ${TWITTER_HANDLE_64!l}
+    twitter_lists: ${TWITTER_LIST_64!l}
+    track: ${TRACK_64!l}
+    location: ${LOCATION_64!fl}
+    webhook_urls: ${WEBHOOK_URL_64!wh}
+
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_65!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_65!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_65!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_65!b}
+    IncludeQuote: ${INCLUDE_QUOTE_65!b}
+    CreateEmbed: ${CREATE_EMBED_65!b}
+    custom_message: ${CUSTOM_MESSAGE_65}
+    keyword_sets: ${KEYWORDS_65!ll}
+    blackword_sets: ${BLACKWORDS_65!ll}
+    twitter_ids: ${TWITTER_ID_65!l}
+    twitter_handles: ${TWITTER_HANDLE_65!l}
+    twitter_lists: ${TWITTER_LIST_65!l}
+    track: ${TRACK_65!l}
+    location: ${LOCATION_65!fl}
+    webhook_urls: ${WEBHOOK_URL_65!wh}
+    
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_66!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_66!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_66!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_66!b}
+    IncludeQuote: ${INCLUDE_QUOTE_66!b}
+    CreateEmbed: ${CREATE_EMBED_66!b}
+    custom_message: ${CUSTOM_MESSAGE_66}
+    keyword_sets: ${KEYWORDS_66!ll}
+    blackword_sets: ${BLACKWORDS_66!ll}
+    twitter_ids: ${TWITTER_ID_66!l}
+    twitter_handles: ${TWITTER_HANDLE_66!l}
+    twitter_lists: ${TWITTER_LIST_66!l}
+    track: ${TRACK_66!l}
+    location: ${LOCATION_66!fl}
+    webhook_urls: ${WEBHOOK_URL_66!wh}
+    
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_67!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_67!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_67!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_67!b}
+    IncludeQuote: ${INCLUDE_QUOTE_67!b}
+    CreateEmbed: ${CREATE_EMBED_67!b}
+    custom_message: ${CUSTOM_MESSAGE_67}
+    keyword_sets: ${KEYWORDS_67!ll}
+    blackword_sets: ${BLACKWORDS_67!ll}
+    twitter_ids: ${TWITTER_ID_67!l}
+    twitter_handles: ${TWITTER_HANDLE_67!l}
+    twitter_lists: ${TWITTER_LIST_67!l}
+    track: ${TRACK_67!l}
+    location: ${LOCATION_67!fl}
+    webhook_urls: ${WEBHOOK_URL_67!wh}
+
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_68!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_68!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_68!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_68!b}
+    IncludeQuote: ${INCLUDE_QUOTE_68!b}
+    CreateEmbed: ${CREATE_EMBED_68!b}
+    custom_message: ${CUSTOM_MESSAGE_68}
+    keyword_sets: ${KEYWORDS_68!ll}
+    blackword_sets: ${BLACKWORDS_68!ll}
+    twitter_ids: ${TWITTER_ID_68!l}
+    twitter_handles: ${TWITTER_HANDLE_68!l}
+    twitter_lists: ${TWITTER_LIST_68!l}
+    track: ${TRACK_68!l}
+    location: ${LOCATION_68!fl}
+    webhook_urls: ${WEBHOOK_URL_68!wh}
+    
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_69!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_69!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_69!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_69!b}
+    IncludeQuote: ${INCLUDE_QUOTE_69!b}
+    CreateEmbed: ${CREATE_EMBED_69!b}
+    custom_message: ${CUSTOM_MESSAGE_69}
+    keyword_sets: ${KEYWORDS_69!ll}
+    blackword_sets: ${BLACKWORDS_69!ll}
+    twitter_ids: ${TWITTER_ID_69!l}
+    twitter_handles: ${TWITTER_HANDLE_69!l}
+    twitter_lists: ${TWITTER_LIST_69!l}
+    track: ${TRACK_69!l}
+    location: ${LOCATION_69!fl}
+    webhook_urls: ${WEBHOOK_URL_69!wh}
+    
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_70!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_70!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_70!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_70!b}
+    IncludeQuote: ${INCLUDE_QUOTE_70!b}
+    CreateEmbed: ${CREATE_EMBED_70!b}
+    custom_message: ${CUSTOM_MESSAGE_70}
+    keyword_sets: ${KEYWORDS_70!ll}
+    blackword_sets: ${BLACKWORDS_70!ll}
+    twitter_ids: ${TWITTER_ID_70!l}
+    twitter_handles: ${TWITTER_HANDLE_70!l}
+    twitter_lists: ${TWITTER_LIST_70!l}
+    track: ${TRACK_70!l}
+    location: ${LOCATION_70!fl}
+    webhook_urls: ${WEBHOOK_URL_70!wh}
+
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_71!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_71!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_71!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_71!b}
+    IncludeQuote: ${INCLUDE_QUOTE_71!b}
+    CreateEmbed: ${CREATE_EMBED_71!b}
+    custom_message: ${CUSTOM_MESSAGE_71}
+    keyword_sets: ${KEYWORDS_71!ll}
+    blackword_sets: ${BLACKWORDS_71!ll}
+    twitter_ids: ${TWITTER_ID_71!l}
+    twitter_handles: ${TWITTER_HANDLE_71!l}
+    twitter_lists: ${TWITTER_LIST_71!l}
+    track: ${TRACK_71!l}
+    location: ${LOCATION_71!fl}
+    webhook_urls: ${WEBHOOK_URL_71!wh}
+
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_72!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_72!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_72!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_72!b}
+    IncludeQuote: ${INCLUDE_QUOTE_72!b}
+    CreateEmbed: ${CREATE_EMBED_72!b}
+    custom_message: ${CUSTOM_MESSAGE_72}
+    keyword_sets: ${KEYWORDS_72!ll}
+    blackword_sets: ${BLACKWORDS_72!ll}
+    twitter_ids: ${TWITTER_ID_72!l}
+    twitter_handles: ${TWITTER_HANDLE_72!l}
+    twitter_lists: ${TWITTER_LIST_72!l}
+    track: ${TRACK_72!l}
+    location: ${LOCATION_72!fl}
+    webhook_urls: ${WEBHOOK_URL_72!wh}
+
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_73!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_73!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_73!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_73!b}
+    IncludeQuote: ${INCLUDE_QUOTE_73!b}
+    CreateEmbed: ${CREATE_EMBED_73!b}
+    custom_message: ${CUSTOM_MESSAGE_73}
+    keyword_sets: ${KEYWORDS_73!ll}
+    blackword_sets: ${BLACKWORDS_73!ll}
+    twitter_ids: ${TWITTER_ID_73!l}
+    twitter_handles: ${TWITTER_HANDLE_73!l}
+    twitter_lists: ${TWITTER_LIST_73!l}
+    track: ${TRACK_73!l}
+    location: ${LOCATION_73!fl}
+    webhook_urls: ${WEBHOOK_URL_73!wh}
+    
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_74!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_74!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_74!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_74!b}
+    IncludeQuote: ${INCLUDE_QUOTE_74!b}
+    CreateEmbed: ${CREATE_EMBED_74!b}
+    custom_message: ${CUSTOM_MESSAGE_74}
+    keyword_sets: ${KEYWORDS_74!ll}
+    blackword_sets: ${BLACKWORDS_74!ll}
+    twitter_ids: ${TWITTER_ID_74!l}
+    twitter_handles: ${TWITTER_HANDLE_74!l}
+    twitter_lists: ${TWITTER_LIST_74!l}
+    track: ${TRACK_74!l}
+    location: ${LOCATION_74!fl}
+    webhook_urls: ${WEBHOOK_URL_74!wh}
+
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_75!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_75!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_75!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_75!b}
+    IncludeQuote: ${INCLUDE_QUOTE_75!b}
+    CreateEmbed: ${CREATE_EMBED_75!b}
+    custom_message: ${CUSTOM_MESSAGE_75}
+    keyword_sets: ${KEYWORDS_75!ll}
+    blackword_sets: ${BLACKWORDS_75!ll}
+    twitter_ids: ${TWITTER_ID_75!l}
+    twitter_handles: ${TWITTER_HANDLE_75!l}
+    twitter_lists: ${TWITTER_LIST_75!l}
+    track: ${TRACK_75!l}
+    location: ${LOCATION_75!fl}
+    webhook_urls: ${WEBHOOK_URL_75!wh}
+    
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_76!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_76!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_76!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_76!b}
+    IncludeQuote: ${INCLUDE_QUOTE_76!b}
+    CreateEmbed: ${CREATE_EMBED_76!b}
+    custom_message: ${CUSTOM_MESSAGE_76}
+    keyword_sets: ${KEYWORDS_76!ll}
+    blackword_sets: ${BLACKWORDS_76!ll}
+    twitter_ids: ${TWITTER_ID_76!l}
+    twitter_handles: ${TWITTER_HANDLE_76!l}
+    twitter_lists: ${TWITTER_LIST_76!l}
+    track: ${TRACK_76!l}
+    location: ${LOCATION_76!fl}
+    webhook_urls: ${WEBHOOK_URL_76!wh}
+    
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_77!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_77!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_77!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_77!b}
+    IncludeQuote: ${INCLUDE_QUOTE_77!b}
+    CreateEmbed: ${CREATE_EMBED_77!b}
+    custom_message: ${CUSTOM_MESSAGE_77}
+    keyword_sets: ${KEYWORDS_77!ll}
+    blackword_sets: ${BLACKWORDS_77!ll}
+    twitter_ids: ${TWITTER_ID_77!l}
+    twitter_handles: ${TWITTER_HANDLE_77!l}
+    twitter_lists: ${TWITTER_LIST_77!l}
+    track: ${TRACK_77!l}
+    location: ${LOCATION_77!fl}
+    webhook_urls: ${WEBHOOK_URL_77!wh}
+
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_78!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_78!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_78!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_78!b}
+    IncludeQuote: ${INCLUDE_QUOTE_78!b}
+    CreateEmbed: ${CREATE_EMBED_78!b}
+    custom_message: ${CUSTOM_MESSAGE_78}
+    keyword_sets: ${KEYWORDS_78!ll}
+    blackword_sets: ${BLACKWORDS_78!ll}
+    twitter_ids: ${TWITTER_ID_78!l}
+    twitter_handles: ${TWITTER_HANDLE_78!l}
+    twitter_lists: ${TWITTER_LIST_78!l}
+    track: ${TRACK_78!l}
+    location: ${LOCATION_78!fl}
+    webhook_urls: ${WEBHOOK_URL_78!wh}
+    
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_79!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_79!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_79!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_79!b}
+    IncludeQuote: ${INCLUDE_QUOTE_79!b}
+    CreateEmbed: ${CREATE_EMBED_79!b}
+    custom_message: ${CUSTOM_MESSAGE_79}
+    keyword_sets: ${KEYWORDS_79!ll}
+    blackword_sets: ${BLACKWORDS_79!ll}
+    twitter_ids: ${TWITTER_ID_79!l}
+    twitter_handles: ${TWITTER_HANDLE_79!l}
+    twitter_lists: ${TWITTER_LIST_79!l}
+    track: ${TRACK_79!l}
+    location: ${LOCATION_79!fl}
+    webhook_urls: ${WEBHOOK_URL_79!wh}
+    
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_80!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_80!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_80!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_80!b}
+    IncludeQuote: ${INCLUDE_QUOTE_80!b}
+    CreateEmbed: ${CREATE_EMBED_80!b}
+    custom_message: ${CUSTOM_MESSAGE_80}
+    keyword_sets: ${KEYWORDS_80!ll}
+    blackword_sets: ${BLACKWORDS_80!ll}
+    twitter_ids: ${TWITTER_ID_80!l}
+    twitter_handles: ${TWITTER_HANDLE_80!l}
+    twitter_lists: ${TWITTER_LIST_80!l}
+    track: ${TRACK_80!l}
+    location: ${LOCATION_80!fl}
+    webhook_urls: ${WEBHOOK_URL_80!wh}
+
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_81!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_81!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_81!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_81!b}
+    IncludeQuote: ${INCLUDE_QUOTE_81!b}
+    CreateEmbed: ${CREATE_EMBED_81!b}
+    custom_message: ${CUSTOM_MESSAGE_81}
+    keyword_sets: ${KEYWORDS_81!ll}
+    blackword_sets: ${BLACKWORDS_81!ll}
+    twitter_ids: ${TWITTER_ID_81!l}
+    twitter_handles: ${TWITTER_HANDLE_81!l}
+    twitter_lists: ${TWITTER_LIST_81!l}
+    track: ${TRACK_81!l}
+    location: ${LOCATION_81!fl}
+    webhook_urls: ${WEBHOOK_URL_81!wh}
+
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_82!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_82!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_82!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_82!b}
+    IncludeQuote: ${INCLUDE_QUOTE_82!b}
+    CreateEmbed: ${CREATE_EMBED_82!b}
+    custom_message: ${CUSTOM_MESSAGE_82}
+    keyword_sets: ${KEYWORDS_82!ll}
+    blackword_sets: ${BLACKWORDS_82!ll}
+    twitter_ids: ${TWITTER_ID_82!l}
+    twitter_handles: ${TWITTER_HANDLE_82!l}
+    twitter_lists: ${TWITTER_LIST_82!l}
+    track: ${TRACK_82!l}
+    location: ${LOCATION_82!fl}
+    webhook_urls: ${WEBHOOK_URL_82!wh}
+
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_83!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_83!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_83!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_83!b}
+    IncludeQuote: ${INCLUDE_QUOTE_83!b}
+    CreateEmbed: ${CREATE_EMBED_83!b}
+    custom_message: ${CUSTOM_MESSAGE_83}
+    keyword_sets: ${KEYWORDS_83!ll}
+    blackword_sets: ${BLACKWORDS_83!ll}
+    twitter_ids: ${TWITTER_ID_83!l}
+    twitter_handles: ${TWITTER_HANDLE_83!l}
+    twitter_lists: ${TWITTER_LIST_83!l}
+    track: ${TRACK_83!l}
+    location: ${LOCATION_83!fl}
+    webhook_urls: ${WEBHOOK_URL_83!wh}
+    
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_84!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_84!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_84!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_84!b}
+    IncludeQuote: ${INCLUDE_QUOTE_84!b}
+    CreateEmbed: ${CREATE_EMBED_84!b}
+    custom_message: ${CUSTOM_MESSAGE_84}
+    keyword_sets: ${KEYWORDS_84!ll}
+    blackword_sets: ${BLACKWORDS_84!ll}
+    twitter_ids: ${TWITTER_ID_84!l}
+    twitter_handles: ${TWITTER_HANDLE_84!l}
+    twitter_lists: ${TWITTER_LIST_84!l}
+    track: ${TRACK_84!l}
+    location: ${LOCATION_84!fl}
+    webhook_urls: ${WEBHOOK_URL_84!wh}
+
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_85!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_85!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_85!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_85!b}
+    IncludeQuote: ${INCLUDE_QUOTE_85!b}
+    CreateEmbed: ${CREATE_EMBED_85!b}
+    custom_message: ${CUSTOM_MESSAGE_85}
+    keyword_sets: ${KEYWORDS_85!ll}
+    blackword_sets: ${BLACKWORDS_85!ll}
+    twitter_ids: ${TWITTER_ID_85!l}
+    twitter_handles: ${TWITTER_HANDLE_85!l}
+    twitter_lists: ${TWITTER_LIST_85!l}
+    track: ${TRACK_85!l}
+    location: ${LOCATION_85!fl}
+    webhook_urls: ${WEBHOOK_URL_85!wh}
+    
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_86!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_86!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_86!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_86!b}
+    IncludeQuote: ${INCLUDE_QUOTE_86!b}
+    CreateEmbed: ${CREATE_EMBED_86!b}
+    custom_message: ${CUSTOM_MESSAGE_86}
+    keyword_sets: ${KEYWORDS_86!ll}
+    blackword_sets: ${BLACKWORDS_86!ll}
+    twitter_ids: ${TWITTER_ID_86!l}
+    twitter_handles: ${TWITTER_HANDLE_86!l}
+    twitter_lists: ${TWITTER_LIST_86!l}
+    track: ${TRACK_86!l}
+    location: ${LOCATION_86!fl}
+    webhook_urls: ${WEBHOOK_URL_86!wh}
+    
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_87!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_87!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_87!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_87!b}
+    IncludeQuote: ${INCLUDE_QUOTE_87!b}
+    CreateEmbed: ${CREATE_EMBED_87!b}
+    custom_message: ${CUSTOM_MESSAGE_87}
+    keyword_sets: ${KEYWORDS_87!ll}
+    blackword_sets: ${BLACKWORDS_87!ll}
+    twitter_ids: ${TWITTER_ID_87!l}
+    twitter_handles: ${TWITTER_HANDLE_87!l}
+    twitter_lists: ${TWITTER_LIST_87!l}
+    track: ${TRACK_87!l}
+    location: ${LOCATION_87!fl}
+    webhook_urls: ${WEBHOOK_URL_87!wh}
+
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_88!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_88!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_88!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_88!b}
+    IncludeQuote: ${INCLUDE_QUOTE_88!b}
+    CreateEmbed: ${CREATE_EMBED_88!b}
+    custom_message: ${CUSTOM_MESSAGE_88}
+    keyword_sets: ${KEYWORDS_88!ll}
+    blackword_sets: ${BLACKWORDS_88!ll}
+    twitter_ids: ${TWITTER_ID_88!l}
+    twitter_handles: ${TWITTER_HANDLE_88!l}
+    twitter_lists: ${TWITTER_LIST_88!l}
+    track: ${TRACK_88!l}
+    location: ${LOCATION_88!fl}
+    webhook_urls: ${WEBHOOK_URL_88!wh}
+    
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_89!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_89!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_89!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_89!b}
+    IncludeQuote: ${INCLUDE_QUOTE_89!b}
+    CreateEmbed: ${CREATE_EMBED_89!b}
+    custom_message: ${CUSTOM_MESSAGE_89}
+    keyword_sets: ${KEYWORDS_89!ll}
+    blackword_sets: ${BLACKWORDS_89!ll}
+    twitter_ids: ${TWITTER_ID_89!l}
+    twitter_handles: ${TWITTER_HANDLE_89!l}
+    twitter_lists: ${TWITTER_LIST_89!l}
+    track: ${TRACK_89!l}
+    location: ${LOCATION_89!fl}
+    webhook_urls: ${WEBHOOK_URL_89!wh}
+    
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_90!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_90!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_90!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_90!b}
+    IncludeQuote: ${INCLUDE_QUOTE_90!b}
+    CreateEmbed: ${CREATE_EMBED_90!b}
+    custom_message: ${CUSTOM_MESSAGE_90}
+    keyword_sets: ${KEYWORDS_90!ll}
+    blackword_sets: ${BLACKWORDS_90!ll}
+    twitter_ids: ${TWITTER_ID_90!l}
+    twitter_handles: ${TWITTER_HANDLE_90!l}
+    twitter_lists: ${TWITTER_LIST_90!l}
+    track: ${TRACK_90!l}
+    location: ${LOCATION_90!fl}
+    webhook_urls: ${WEBHOOK_URL_90!wh}
+
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_91!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_91!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_91!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_91!b}
+    IncludeQuote: ${INCLUDE_QUOTE_91!b}
+    CreateEmbed: ${CREATE_EMBED_91!b}
+    custom_message: ${CUSTOM_MESSAGE_91}
+    keyword_sets: ${KEYWORDS_91!ll}
+    blackword_sets: ${BLACKWORDS_91!ll}
+    twitter_ids: ${TWITTER_ID_91!l}
+    twitter_handles: ${TWITTER_HANDLE_91!l}
+    twitter_lists: ${TWITTER_LIST_91!l}
+    track: ${TRACK_91!l}
+    location: ${LOCATION_91!fl}
+    webhook_urls: ${WEBHOOK_URL_91!wh}
+
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_92!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_92!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_92!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_92!b}
+    IncludeQuote: ${INCLUDE_QUOTE_92!b}
+    CreateEmbed: ${CREATE_EMBED_92!b}
+    custom_message: ${CUSTOM_MESSAGE_92}
+    keyword_sets: ${KEYWORDS_92!ll}
+    blackword_sets: ${BLACKWORDS_92!ll}
+    twitter_ids: ${TWITTER_ID_92!l}
+    twitter_handles: ${TWITTER_HANDLE_92!l}
+    twitter_lists: ${TWITTER_LIST_92!l}
+    track: ${TRACK_92!l}
+    location: ${LOCATION_92!fl}
+    webhook_urls: ${WEBHOOK_URL_92!wh}
+
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_93!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_93!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_93!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_93!b}
+    IncludeQuote: ${INCLUDE_QUOTE_93!b}
+    CreateEmbed: ${CREATE_EMBED_93!b}
+    custom_message: ${CUSTOM_MESSAGE_93}
+    keyword_sets: ${KEYWORDS_93!ll}
+    blackword_sets: ${BLACKWORDS_93!ll}
+    twitter_ids: ${TWITTER_ID_93!l}
+    twitter_handles: ${TWITTER_HANDLE_93!l}
+    twitter_lists: ${TWITTER_LIST_93!l}
+    track: ${TRACK_93!l}
+    location: ${LOCATION_93!fl}
+    webhook_urls: ${WEBHOOK_URL_93!wh}
+    
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_94!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_94!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_94!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_94!b}
+    IncludeQuote: ${INCLUDE_QUOTE_94!b}
+    CreateEmbed: ${CREATE_EMBED_94!b}
+    custom_message: ${CUSTOM_MESSAGE_94}
+    keyword_sets: ${KEYWORDS_94!ll}
+    blackword_sets: ${BLACKWORDS_94!ll}
+    twitter_ids: ${TWITTER_ID_94!l}
+    twitter_handles: ${TWITTER_HANDLE_94!l}
+    twitter_lists: ${TWITTER_LIST_94!l}
+    track: ${TRACK_94!l}
+    location: ${LOCATION_94!fl}
+    webhook_urls: ${WEBHOOK_URL_94!wh}
+
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_95!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_95!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_95!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_95!b}
+    IncludeQuote: ${INCLUDE_QUOTE_95!b}
+    CreateEmbed: ${CREATE_EMBED_95!b}
+    custom_message: ${CUSTOM_MESSAGE_95}
+    keyword_sets: ${KEYWORDS_95!ll}
+    blackword_sets: ${BLACKWORDS_95!ll}
+    twitter_ids: ${TWITTER_ID_95!l}
+    twitter_handles: ${TWITTER_HANDLE_95!l}
+    twitter_lists: ${TWITTER_LIST_95!l}
+    track: ${TRACK_95!l}
+    location: ${LOCATION_95!fl}
+    webhook_urls: ${WEBHOOK_URL_95!wh}
+    
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_96!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_96!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_96!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_96!b}
+    IncludeQuote: ${INCLUDE_QUOTE_96!b}
+    CreateEmbed: ${CREATE_EMBED_96!b}
+    custom_message: ${CUSTOM_MESSAGE_96}
+    keyword_sets: ${KEYWORDS_96!ll}
+    blackword_sets: ${BLACKWORDS_96!ll}
+    twitter_ids: ${TWITTER_ID_96!l}
+    twitter_handles: ${TWITTER_HANDLE_96!l}
+    twitter_lists: ${TWITTER_LIST_96!l}
+    track: ${TRACK_96!l}
+    location: ${LOCATION_96!fl}
+    webhook_urls: ${WEBHOOK_URL_96!wh}
+    
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_97!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_97!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_97!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_97!b}
+    IncludeQuote: ${INCLUDE_QUOTE_97!b}
+    CreateEmbed: ${CREATE_EMBED_97!b}
+    custom_message: ${CUSTOM_MESSAGE_97}
+    keyword_sets: ${KEYWORDS_97!ll}
+    blackword_sets: ${BLACKWORDS_97!ll}
+    twitter_ids: ${TWITTER_ID_97!l}
+    twitter_handles: ${TWITTER_HANDLE_97!l}
+    twitter_lists: ${TWITTER_LIST_97!l}
+    track: ${TRACK_97!l}
+    location: ${LOCATION_97!fl}
+    webhook_urls: ${WEBHOOK_URL_97!wh}
+
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_98!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_98!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_98!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_98!b}
+    IncludeQuote: ${INCLUDE_QUOTE_98!b}
+    CreateEmbed: ${CREATE_EMBED_98!b}
+    custom_message: ${CUSTOM_MESSAGE_98}
+    keyword_sets: ${KEYWORDS_98!ll}
+    blackword_sets: ${BLACKWORDS_98!ll}
+    twitter_ids: ${TWITTER_ID_98!l}
+    twitter_handles: ${TWITTER_HANDLE_98!l}
+    twitter_lists: ${TWITTER_LIST_98!l}
+    track: ${TRACK_98!l}
+    location: ${LOCATION_98!fl}
+    webhook_urls: ${WEBHOOK_URL_98!wh}
+    
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_99!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_99!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_99!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_99!b}
+    IncludeQuote: ${INCLUDE_QUOTE_99!b}
+    CreateEmbed: ${CREATE_EMBED_99!b}
+    custom_message: ${CUSTOM_MESSAGE_99}
+    keyword_sets: ${KEYWORDS_99!ll}
+    blackword_sets: ${BLACKWORDS_99!ll}
+    twitter_ids: ${TWITTER_ID_99!l}
+    twitter_handles: ${TWITTER_HANDLE_99!l}
+    twitter_lists: ${TWITTER_LIST_99!l}
+    track: ${TRACK_99!l}
+    location: ${LOCATION_99!fl}
+    webhook_urls: ${WEBHOOK_URL_99!wh}
