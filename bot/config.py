@@ -65,7 +65,7 @@ yaml.add_constructor("!path", path_constructor)
 
 with open(CONFIG_YAML, "r") as stream:
     try:
-        config = yaml.safe_load(stream)
+        config = yaml.full_load(stream)
     except yaml.YAMLError as exc:
         print(exc)
 
