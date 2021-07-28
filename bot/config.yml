@@ -89,7 +89,7 @@ Discord:
     IncludeQuote: false
     CreateEmbed: false
     custom_message: '{user} tweeted: {url}'
-    keyword_sets: [['乃木坂','t.co'],['みなみ','t.co'],['桃','t.co'],['サンデー','t.co'],['ちゃん','t.co'],['t.co']]
+    keyword_sets: [['乃木坂','t.co'],['みなみ','t.co'],['桃','t.co'],['サンデー','t.co'],['ちゃん','t.co'],['t.co'],['乃木坂','http'],['みなみ','http'],['桃','http'],['サンデー','http'],['ちゃん','http'],['http']]
     blackword_sets: [['浜中文一'],['TravisJapan'],['サタデー'],['中村海人'],['HeySayJUMP'],['八乙女光'],['伊野尾慧'],['Lilかんさい'],['SexyZone'],['SixTONES'],['嶋﨑斗亜'],['ジェシー'],['髙地優吾'],['くん'],['radirer'],['nhk.or.jp/radirer'],['nhk.or.jp/radirer/sunday/basic_sun'],['してみよう'],['なんて言った'],['なんていった'],['投稿してね'],['送ってね'],['考えてね'],['企画です'],['【サンデー】①'],['【サンデー】②']]
     twitter_ids: ['505321772']
     webhook_urls: ['https://discord.com/api/webhooks/822596008394752061/fuscve015WABiqds3j-JfmH32pCiIqC5X90yU0tLiMd2RFreKLdAPhW1vgOvu1eqzYWl']
@@ -101,7 +101,7 @@ Discord:
     IncludeQuote: false
     CreateEmbed: false
     custom_message: '{user} tweeted: {url}'
-    keyword_sets: [['乃木坂','t.co'],['田村真佑','t.co']]
+    keyword_sets: [['乃木坂','t.co'],['田村真佑','t.co'],['乃木坂','http'],['田村真佑','http']]
     blackword_sets: [['郡司芹香']]
     twitter_ids: ['1511776262,2212674829','1014831411935625216']
     webhook_urls: ['https://discord.com/api/webhooks/822596008394752061/fuscve015WABiqds3j-JfmH32pCiIqC5X90yU0tLiMd2RFreKLdAPhW1vgOvu1eqzYWl']
@@ -137,7 +137,7 @@ Discord:
     IncludeQuote: false
     CreateEmbed: false
     custom_message: '{user} tweeted: {url}'
-    keyword_sets: [['齋藤飛鳥','t.co'],['沈黙の金曜日','t.co']]
+    keyword_sets: [['齋藤飛鳥','t.co'],['沈黙の金曜日','t.co'],['齋藤飛鳥','http'],['沈黙の金曜日','http']]
     blackword_sets: 
     twitter_ids: ['714315534632792064','3096208460']
     webhook_urls: ['https://discord.com/api/webhooks/822596008394752061/fuscve015WABiqds3j-JfmH32pCiIqC5X90yU0tLiMd2RFreKLdAPhW1vgOvu1eqzYWl']
@@ -149,7 +149,7 @@ Discord:
     IncludeQuote: false
     CreateEmbed: false
     custom_message: '{user} tweeted: {url}'
-    keyword_sets: [['乃木坂46'],['堀未央奈'],['与田祐希'],['トップ目とれるカナ','t.co']]
+    keyword_sets: [['乃木坂46'],['堀未央奈'],['与田祐希'],['トップ目とれるカナ','t.co'],['トップ目とれるカナ','http']]
     blackword_sets: 
     twitter_ids: ['226517544','4066572320','837626591245037568','873066157086957568','772685974358724608','1215185992153387008','130040008']
     webhook_urls: ['https://discord.com/api/webhooks/822596008394752061/fuscve015WABiqds3j-JfmH32pCiIqC5X90yU0tLiMd2RFreKLdAPhW1vgOvu1eqzYWl']
@@ -173,7 +173,7 @@ Discord:
     IncludeQuote: false
     CreateEmbed: false
     custom_message: '{user} tweeted: {url}'
-    keyword_sets: [['t.co']]
+    keyword_sets: [['t.co'],['http']]
     blackword_sets: 
     twitter_ids: ['952446912069648385']
     webhook_urls: ['https://discord.com/api/webhooks/822748986699939851/FfcBtI7Ow-iUFfi2pcz7XpGXGni3ZH0geUgXpsnzTaYXeFPevdj76THQWL9P95J9cJPr']
@@ -209,7 +209,7 @@ Discord:
     IncludeQuote: false
     CreateEmbed: false
     custom_message: '{user} tweeted: {url}'
-    keyword_sets: [['t.co']]
+    keyword_sets: [['http']]
     blackword_sets: 
     twitter_ids: ['1273568469099794432','1236284617776226306','1151291278971133953','1411545154217930754','923809384982913025','1195218720387321856','1222630584415129600']
     webhook_urls: ['https://discord.com/api/webhooks/869806469632122900/XZG_BRjwizn-T1pzeDCkcKFMbHHXlj0j8j8whCgpewoVs7DgvP2ekP3An7gUOx8L7PoY']
