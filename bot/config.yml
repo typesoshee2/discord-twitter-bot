@@ -185,9 +185,9 @@ Discord:
     IncludeQuote: false
     CreateEmbed: false
     custom_message: '{user} tweeted: {url}'
-    keyword_sets: [['乃木坂46完売表']]
+    keyword_sets: [['乃木坂46完売表'],['Nogizaka46','Stats']]
     blackword_sets: 
-    twitter_ids: ['62048976']
+    twitter_ids: ['62048976','1230881182642049025']
     webhook_urls: ['https://discord.com/api/webhooks/822748986699939851/FfcBtI7Ow-iUFfi2pcz7XpGXGni3ZH0geUgXpsnzTaYXeFPevdj76THQWL9P95J9cJPr','https://discord.com/api/webhooks/855519066097057792/q4-euqyFJBIaLkksncJ82lTrYrfyNa2KsYgeJ0RrU7_p8OOE8g8NlcV9NN9jneen1LWP']
 #13
   - IncludeReplyToUser: false
