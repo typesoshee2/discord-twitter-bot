@@ -209,7 +209,7 @@ Discord:
     IncludeQuote: false
     CreateEmbed: false
     custom_message: '{user} tweeted: {url}'
-    keyword_sets: [['typesoshee'],['typesoshee','typesoshee']]
+    keyword_sets: [['test'],['test','test']]
     blackword_sets: [['typesoshee'],['typesoshee','typesoshee']]
     twitter_ids: ['1273568469099794432','1236284617776226306','1151291278971133953','1411545154217930754','923809384982913025','1195218720387321856','1222630584415129600','1016578134760550405','871344190269124608','3064628602']
     webhook_urls: ['https://discord.com/api/webhooks/869806469632122900/XZG_BRjwizn-T1pzeDCkcKFMbHHXlj0j8j8whCgpewoVs7DgvP2ekP3An7gUOx8L7PoY']
