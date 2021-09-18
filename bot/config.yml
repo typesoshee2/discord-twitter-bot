@@ -203,7 +203,7 @@ Discord:
     webhook_urls: ['https://discord.com/api/webhooks/839673177201311785/6JdsiucU9yt9eq_l1acE4uAsRcdTE-SPdJJTP8U4OaQN7180UJiuNVqMB3r0sY6w6-xE']
 #14
   - IncludeReplyToUser: false
-    IncludeRetweet: true
+    IncludeRetweet: false
     IncludeUserReply: false
     IncludeAttachment: false
     IncludeQuote: false
