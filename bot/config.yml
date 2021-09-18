@@ -203,15 +203,27 @@ Discord:
     webhook_urls: ['https://discord.com/api/webhooks/839673177201311785/6JdsiucU9yt9eq_l1acE4uAsRcdTE-SPdJJTP8U4OaQN7180UJiuNVqMB3r0sY6w6-xE']
 #14
   - IncludeReplyToUser: false
-    IncludeRetweet: false
+    IncludeRetweet: true
+    IncludeUserReply: false
+    IncludeAttachment: true
+    IncludeQuote: true
+    CreateEmbed: false
+    custom_message: '{user} tweeted: {url}'
+    keyword_sets: 
+    blackword_sets: 
+    twitter_ids: ['1236284617776226306','1151291278971133953','1411545154217930754','923809384982913025','1195218720387321856','1222630584415129600']
+    webhook_urls: ['https://discord.com/api/webhooks/869806469632122900/XZG_BRjwizn-T1pzeDCkcKFMbHHXlj0j8j8whCgpewoVs7DgvP2ekP3An7gUOx8L7PoY']
+#15
+  - IncludeReplyToUser: false
+    IncludeRetweet: true
     IncludeUserReply: false
     IncludeAttachment: false
     IncludeQuote: false
     CreateEmbed: false
     custom_message: '{user} tweeted: {url}'
-    keyword_sets: [['https://t.co']]
+    keyword_sets: [['brokensubs'],['English'],['Translation'],['Subbed'],['wordpress'],['blog'],['episodes'],['tamuhaya'],['blogspot'],['lowtensionsuika'],['Mail'],['hinachima.net'],['英訳'],['Higuchi Hina'],['instagram.com'],['renachitranslation'],['english'],['translation'],['subs']]
     blackword_sets: 
-    twitter_ids: ['1273568469099794432','1236284617776226306','1151291278971133953','1411545154217930754','923809384982913025','1195218720387321856','1222630584415129600','1016578134760550405']
+    twitter_ids: ['1273568469099794432','1016578134760550405','871344190269124608','1104855026902609921']
     webhook_urls: ['https://discord.com/api/webhooks/869806469632122900/XZG_BRjwizn-T1pzeDCkcKFMbHHXlj0j8j8whCgpewoVs7DgvP2ekP3An7gUOx8L7PoY']
 
 
