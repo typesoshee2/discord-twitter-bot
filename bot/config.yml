@@ -90,7 +90,7 @@ Discord:
     CreateEmbed: false
     custom_message: '{user} tweeted: {url}'
     keyword_sets: [['乃木坂','t.co'],['みなみ','t.co'],['桃','t.co'],['サンデー','t.co'],['ちゃん','t.co'],['t.co'],['乃木坂','http'],['みなみ','http'],['桃','http'],['サンデー','http'],['ちゃん','http'],['http']]
-    blackword_sets: [['浜中文一'],['TravisJapan'],['サタデー'],['中村海人'],['HeySayJUMP'],['八乙女光'],['伊野尾慧'],['Lilかんさい'],['SexyZone'],['SixTONES'],['嶋﨑斗亜'],['ジェシー'],['髙地優吾'],['くん'],['radirer'],['nhk.or.jp/radirer'],['nhk.or.jp/radirer/sunday/basic_sun'],['してみよう'],['なんて言った'],['なんていった'],['投稿してね'],['送ってね'],['考えてね'],['企画です'],['【サンデー】①'],['【サンデー】②'],['川島'],['那須'],['浮所'],['本髙']]
+    blackword_sets: [['浜中文一'],['TravisJapan'],['サタデー'],['中村海人'],['HeySayJUMP'],['八乙女光'],['伊野尾慧'],['Lilかんさい'],['SexyZone'],['SixTONES'],['嶋﨑斗亜'],['ジェシー'],['髙地優吾'],['くん'],['radirer'],['nhk.or.jp/radirer'],['nhk.or.jp/radirer/sunday/basic_sun'],['してみよう'],['なんて言った'],['なんていった'],['投稿してね'],['送ってね'],['考えてね'],['企画です'],['【サンデー】①'],['【サンデー】②'],['川島'],['那須'],['浮所'],['本髙'],['HiHiJets'],['猪狩'],['龍我']]
     twitter_ids: ['505321772']
     webhook_urls: ['https://discord.com/api/webhooks/822596008394752061/fuscve015WABiqds3j-JfmH32pCiIqC5X90yU0tLiMd2RFreKLdAPhW1vgOvu1eqzYWl']
 #5
