@@ -67,7 +67,7 @@ Discord:
     custom_message: '{user} tweeted: {url}'
     keyword_sets: 
     blackword_sets: 
-    twitter_ids: ['1001065920234573824','846729851427971073']
+    twitter_ids: ['1001065920234573824','846729851427971073','123829741']
     webhook_urls: ['https://discord.com/api/webhooks/822596008394752061/fuscve015WABiqds3j-JfmH32pCiIqC5X90yU0tLiMd2RFreKLdAPhW1vgOvu1eqzYWl']
 #3
   - IncludeReplyToUser: false
