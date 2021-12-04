@@ -66,8 +66,8 @@ Discord:
     CreateEmbed: false
     custom_message: '{user} tweeted: {url}'
     keyword_sets: 
-    blackword_sets: [['抽選の結果は果たして']]
-    twitter_ids: ['1001065920234573824','846729851427971073','123829741']
+    blackword_sets: 
+    twitter_ids: ['1001065920234573824','846729851427971073']
     webhook_urls: ['https://discord.com/api/webhooks/822596008394752061/fuscve015WABiqds3j-JfmH32pCiIqC5X90yU0tLiMd2RFreKLdAPhW1vgOvu1eqzYWl']
 #3
   - IncludeReplyToUser: false
@@ -78,8 +78,8 @@ Discord:
     CreateEmbed: false
     custom_message: '{user} tweeted: {url}'
     keyword_sets: 
-    blackword_sets: [['誰かに話したくなる東京ディズニーリゾート']]
-    twitter_ids: ['2569334192','1307929737042427904','1193156715836887041','1219889357810585600','1288392968433356800','1297996538375892994','1309354515724812288','4077236000']
+    blackword_sets: [['誰かに話したくなる東京ディズニーリゾート'],['抽選の結果は果たして']]
+    twitter_ids: ['2569334192','1307929737042427904','1193156715836887041','1219889357810585600','1288392968433356800','1297996538375892994','1309354515724812288','4077236000','123829741']
     webhook_urls: ['https://discord.com/api/webhooks/822748579508649994/OeAwr_TCBvcEhsKshAFrjJjHR7GHHGzAUZd4u5J71thOyzlYKNzKpxKQ6kZDlZe7XFWF']
 #4
   - IncludeReplyToUser: false
