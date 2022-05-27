@@ -225,6 +225,30 @@ Discord:
     blackword_sets: 
     twitter_ids: ['1273568469099794432','1016578134760550405','871344190269124608','1104855026902609921','92749361','1151457592494870529']
     webhook_urls: ['https://discord.com/api/webhooks/869806469632122900/XZG_BRjwizn-T1pzeDCkcKFMbHHXlj0j8j8whCgpewoVs7DgvP2ekP3An7gUOx8L7PoY']
+#16
+  - IncludeReplyToUser: false
+    IncludeRetweet: true
+    IncludeUserReply: true
+    IncludeAttachment: true
+    IncludeQuote: true
+    CreateEmbed: false
+    custom_message: '{user} tweeted: {url}'
+    keyword_sets: [['sakurazaka46']]
+    blackword_sets: 
+    twitter_ids: ['840592681743003648']
+    webhook_urls: ['https://discord.com/api/webhooks/979867047628525608/z8gHZYKWYlWsooBtREMG-0m4dqR9vnqo3PDS-vRcNGllziwJwYoZWmQ1hTqlfW-MCqdY']
+#17
+  - IncludeReplyToUser: false
+    IncludeRetweet: true
+    IncludeUserReply: true
+    IncludeAttachment: true
+    IncludeQuote: true
+    CreateEmbed: false
+    custom_message: '{user} tweeted: {url}'
+    keyword_sets: [['hinatazaka46']]
+    blackword_sets: 
+    twitter_ids: ['840592681743003648']
+    webhook_urls: ['https://discord.com/api/webhooks/979868261351055382/ihtLIbSBV5sOMCkC9UWPipVOPW5ttWvG-svyRYAcFTBy2Ym0_8Pcyka94gYBr4mz2cpR']
 
 
 # configuration through environment variables
