@@ -232,7 +232,7 @@ Discord:
     IncludeAttachment: true
     IncludeQuote: true
     CreateEmbed: false
-    custom_message: '{user} tweeted: {url}'
+    custom_message: '*aimg {url}'
     keyword_sets: [['sakurazaka46']]
     blackword_sets: 
     twitter_ids: ['840592681743003648']
@@ -244,7 +244,7 @@ Discord:
     IncludeAttachment: true
     IncludeQuote: true
     CreateEmbed: false
-    custom_message: '{user} tweeted: {url}'
+    custom_message: '*aimg {url}'
     keyword_sets: [['hinatazaka46']]
     blackword_sets: 
     twitter_ids: ['840592681743003648']
