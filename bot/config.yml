@@ -223,7 +223,7 @@ Discord:
     custom_message: '{user} tweeted: {url}'
     keyword_sets: [['brokensubs'],['English'],['Translation'],['Subbed'],['wordpress'],['blog'],['episodes'],['tamuhaya'],['blogspot'],['lowtensionsuika'],['Mail'],['hinachima.net'],['英訳'],['Higuchi Hina'],['instagram.com'],['renachitranslation'],['english'],['translation'],['subs'],['erika-ikuta.net'],['hangingbridge46.blogspot']]
     blackword_sets: 
-    twitter_ids: ['1273568469099794432','1016578134760550405','871344190269124608','1104855026902609921','92749361','1151457592494870529']
+    twitter_ids: ['1273568469099794432','1016578134760550405','871344190269124608','1104855026902609921','92749361','1151457592494870529','2731278901']
     webhook_urls: ['https://discord.com/api/webhooks/869806469632122900/XZG_BRjwizn-T1pzeDCkcKFMbHHXlj0j8j8whCgpewoVs7DgvP2ekP3An7gUOx8L7PoY']
 #16
   - IncludeReplyToUser: false
