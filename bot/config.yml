@@ -103,7 +103,7 @@ Discord:
     custom_message: '{user} tweeted: {url}'
     keyword_sets: [['乃木坂','t.co'],['田村真佑','t.co'],['乃木坂','http'],['田村真佑','http']]
     blackword_sets: [['郡司芹香']]
-    twitter_ids: ['1511776262,2212674829','1014831411935625216']
+    twitter_ids: ['1511776262,2212674829','1014831411935625216','225002631']
     webhook_urls: ['https://discord.com/api/webhooks/822596008394752061/fuscve015WABiqds3j-JfmH32pCiIqC5X90yU0tLiMd2RFreKLdAPhW1vgOvu1eqzYWl']
 #6
   - IncludeReplyToUser: false
