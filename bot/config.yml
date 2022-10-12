@@ -233,7 +233,7 @@ Discord:
     IncludeQuote: true
     CreateEmbed: false
     custom_message: '*{user} tweeted: {url}'
-    keyword_sets: [['sakurazaka46']]
+    keyword_sets: [['sakurazaka46'],['櫻坂']]
     blackword_sets: 
     twitter_ids: ['840592681743003648','3433403638']
     webhook_urls: ['https://discord.com/api/webhooks/979867047628525608/z8gHZYKWYlWsooBtREMG-0m4dqR9vnqo3PDS-vRcNGllziwJwYoZWmQ1hTqlfW-MCqdY']
@@ -245,7 +245,7 @@ Discord:
     IncludeQuote: true
     CreateEmbed: false
     custom_message: '*{user} tweeted: {url}'
-    keyword_sets: [['hinatazaka46']]
+    keyword_sets: [['hinatazaka46'],['日向坂']]
     blackword_sets: 
     twitter_ids: ['840592681743003648','1090848979938492416']
     webhook_urls: ['https://discord.com/api/webhooks/979868261351055382/ihtLIbSBV5sOMCkC9UWPipVOPW5ttWvG-svyRYAcFTBy2Ym0_8Pcyka94gYBr4mz2cpR']
